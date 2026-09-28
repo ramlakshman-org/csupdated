@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { company } from "@/lib/data";
 import styles from "./Navbar.module.css";
 
@@ -28,6 +28,7 @@ const navSpring = {
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const reduce = useReducedMotion();
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -47,7 +48,7 @@ export default function Navbar() {
     <>
       <motion.nav
         className={`${styles.nav} ${menuOpen ? styles.navHidden : ""}`}
-        initial={{ opacity: 0.001, y: -160 }}
+        initial={reduce === true ? false : { opacity: 0.001, y: -160 }}
         animate={{ opacity: menuOpen ? 0 : 1, y: 0 }}
         transition={navSpring}
         aria-hidden={menuOpen}
@@ -90,7 +91,7 @@ export default function Navbar() {
         {menuOpen && (
           <motion.div
             className={styles.overlay}
-            initial={{ opacity: 0 }}
+            initial={reduce === true ? false : { opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.35, ease: [0.4, 0, 0.2, 1] }}
@@ -125,7 +126,7 @@ export default function Navbar() {
                 <motion.div
                   key={link.href}
                   className={styles.overlayRow}
-                  initial={{ opacity: 0, y: 16 }}
+                  initial={reduce === true ? false : { opacity: 0, y: 16 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{
                     type: "spring",

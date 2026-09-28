@@ -1,6 +1,6 @@
 "use client";
 import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import TemplateMedia, { toneForCategory } from "@/components/TemplateMedia";
@@ -33,6 +33,7 @@ export default function OfferingCatalog({
 }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
+  const reduce = useReducedMotion();
 
   return (
     <>
@@ -41,7 +42,7 @@ export default function OfferingCatalog({
           <div className={styles.heroLeft}>
             <motion.p
               className={styles.heroYear}
-              initial={{ opacity: 0, y: 20 }}
+              initial={reduce === true ? false : { opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
             >
@@ -65,7 +66,7 @@ export default function OfferingCatalog({
 
             <motion.h1
               className={styles.heroTitle}
-              initial={{ opacity: 0, y: 40 }}
+              initial={reduce === true ? false : { opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             >
@@ -75,7 +76,7 @@ export default function OfferingCatalog({
 
           <motion.p
             className={styles.heroDesc}
-            initial={{ opacity: 0, y: 20 }}
+            initial={reduce === true ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.25, duration: 0.8 }}
           >
@@ -137,7 +138,7 @@ export default function OfferingCatalog({
                 {cat.items.map((item, i) => (
                   <motion.div
                     key={item.id}
-                    initial={{ opacity: 0, y: 100, rotate: 3 }}
+                    initial={reduce === true ? false : { opacity: 0, y: 100, rotate: 3 }}
                     animate={inView ? { opacity: 1, y: 0, rotate: 0 } : {}}
                     transition={{
                       type: "spring",

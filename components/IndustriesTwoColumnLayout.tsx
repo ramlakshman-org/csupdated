@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import SparkleIcon from "@/components/SparkleIcon";
@@ -20,6 +20,7 @@ export default function IndustriesTwoColumnLayout({
   const [activeId, setActiveId] = useState<string | null>(
     initialIndustryId || null
   );
+  const reduce = useReducedMotion();
 
   const activeIndustry: IndustrySolutionData | undefined = activeId
     ? industriesSolutionsData.find((item) => item.id === activeId) ||
@@ -124,7 +125,7 @@ export default function IndustriesTwoColumnLayout({
             {industriesSolutionsData.map((item, idx) => (
               <motion.div
                 key={item.id}
-                initial={{ opacity: 0, y: 25 }}
+                initial={reduce === true ? false : { opacity: 0, y: 25 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
                   duration: 0.45,

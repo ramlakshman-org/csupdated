@@ -3,6 +3,7 @@ import { useRef } from "react";
 import {
   motion,
   useInView,
+  useReducedMotion,
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -45,6 +46,7 @@ export const topics = [
 export default function FeaturedProjects() {
   const headerRef = useRef(null);
   const headerInView = useInView(headerRef, { once: true, margin: "-80px" });
+  const reduce = useReducedMotion();
 
   return (
     <section className={styles.section}>
@@ -52,7 +54,7 @@ export default function FeaturedProjects() {
       <div className={styles.header} ref={headerRef}>
         <div className={styles.headerLeft}>
           <motion.div
-            initial={{ opacity: 0, y: 24, filter: "blur(10px)" }}
+            initial={reduce === true ? false : { opacity: 0, y: 24, filter: "blur(10px)" }}
             animate={headerInView ? { opacity: 1, y: 0, filter: "blur(0px)" } : {}}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
@@ -62,7 +64,7 @@ export default function FeaturedProjects() {
           </motion.div>
           <motion.p
             className={styles.subtitle}
-            initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
+            initial={reduce === true ? false : { opacity: 0, y: 24, filter: "blur(8px)" }}
             animate={headerInView ? { opacity: 1, y: 0, filter: "blur(0px)" } : {}}
             transition={{
               duration: 0.85,
@@ -77,7 +79,7 @@ export default function FeaturedProjects() {
         </div>
 
         <motion.div
-          initial={{ opacity: 0 }}
+          initial={reduce === true ? false : { opacity: 0 }}
           animate={headerInView ? { opacity: 1 } : {}}
           transition={{ delay: 0.2 }}
         >

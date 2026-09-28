@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/components/Footer";
@@ -16,6 +16,7 @@ export default function IndustriesCatalog({
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
+  const reduce = useReducedMotion();
 
   return (
     <>
@@ -25,7 +26,7 @@ export default function IndustriesCatalog({
             <div className={styles.heroBadgeWrap}>
               <motion.span
                 className="section-badge"
-                initial={{ opacity: 0, y: 15 }}
+                initial={reduce === true ? false : { opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
@@ -33,7 +34,7 @@ export default function IndustriesCatalog({
               </motion.span>
               <motion.span
                 className={styles.heroYear}
-                initial={{ opacity: 0, y: 15 }}
+                initial={reduce === true ? false : { opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.05 }}
               >
@@ -58,7 +59,7 @@ export default function IndustriesCatalog({
 
             <motion.h1
               className={styles.heroTitle}
-              initial={{ opacity: 0, y: 40 }}
+              initial={reduce === true ? false : { opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             >
@@ -68,7 +69,7 @@ export default function IndustriesCatalog({
 
           <motion.p
             className={styles.heroDesc}
-            initial={{ opacity: 0, y: 20 }}
+            initial={reduce === true ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.25, duration: 0.8 }}
           >
@@ -97,7 +98,7 @@ export default function IndustriesCatalog({
           {industries.map((item, i) => (
             <motion.div
               key={item.id}
-              initial={{ opacity: 0, y: 60 }}
+              initial={reduce === true ? false : { opacity: 0, y: 60 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{
                 type: "spring",

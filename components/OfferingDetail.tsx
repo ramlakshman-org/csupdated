@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import TemplateMedia, { toneForCategory } from "@/components/TemplateMedia";
@@ -18,6 +18,7 @@ export default function OfferingDetail({
   basePath: string;
   related: (OfferingItem & { category?: string })[];
 }) {
+  const reduce = useReducedMotion();
   return (
     <>
       <div className={styles.page}>
@@ -25,21 +26,21 @@ export default function OfferingDetail({
           <div className={styles.heroLeft}>
             <motion.p
               className={styles.date}
-              initial={{ opacity: 0, y: 20 }}
+              initial={reduce === true ? false : { opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
             >
               {category}
             </motion.p>
             <motion.h1
               className={styles.title}
-              initial={{ opacity: 0, y: 40 }}
+              initial={reduce === true ? false : { opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             >
               {item.title}
             </motion.h1>
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={reduce === true ? false : { opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.7 }}
             >
@@ -56,7 +57,7 @@ export default function OfferingDetail({
                   ? local.heroImageContain
                   : local.heroImage
               }
-              initial={{ opacity: 0, scale: 0.96 }}
+              initial={reduce === true ? false : { opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >

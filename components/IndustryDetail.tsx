@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import SparkleIcon from "@/components/SparkleIcon";
@@ -12,6 +12,7 @@ import {
 import styles from "./IndustryDetail.module.css";
 
 export default function IndustryDetail({ industry }: { industry: Industry }) {
+  const reduce = useReducedMotion();
   const solutionData: IndustrySolutionData | undefined = findIndustrySolution(
     industry.id
   );
@@ -45,7 +46,7 @@ export default function IndustryDetail({ industry }: { industry: Industry }) {
           {/* 1. HERO BANNER WITH OVERLAID BOTTOM-LEFT CARD */}
           <motion.div
             className={styles.heroBannerWrap}
-            initial={{ opacity: 0, y: 20 }}
+            initial={reduce === true ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
@@ -59,7 +60,7 @@ export default function IndustryDetail({ industry }: { industry: Industry }) {
 
             <motion.div
               className={styles.heroOverlayCard}
-              initial={{ opacity: 0, y: 25 }}
+              initial={reduce === true ? false : { opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.15 }}
             >

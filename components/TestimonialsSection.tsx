@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
 
       <div className={styles.header} ref={headerRef}>
         <motion.div
-          initial={{ opacity: 0, y: 24, filter: "blur(10px)" }}
+          initial={reduce === true ? false : { opacity: 0, y: 24, filter: "blur(10px)" }}
           animate={headerInView ? { opacity: 1, y: 0, filter: "blur(0px)" } : {}}
           transition={{ duration: 0.8, ease: easeOut }}
         >
@@ -62,7 +62,7 @@ export default function TestimonialsSection() {
 
         <motion.p
           className={styles.subtitle}
-          initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
+          initial={reduce === true ? false : { opacity: 0, y: 24, filter: "blur(8px)" }}
           animate={headerInView ? { opacity: 1, y: 0, filter: "blur(0px)" } : {}}
           transition={{ duration: 0.85, delay: 0.1, ease: easeOut }}
         >
