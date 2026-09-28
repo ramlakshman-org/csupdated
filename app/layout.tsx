@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import ClientWidgets from "@/components/ClientWidgets";
 import {
   GoogleTagManager,
+  GoogleTagManagerConsent,
   GoogleTagManagerNoScript,
 } from "@/components/GoogleTagManager";
 import CookieConsent from "@/components/CookieConsent";
@@ -52,6 +53,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className={manrope.className} suppressHydrationWarning>
+        <GoogleTagManagerConsent />
         <GoogleTagManagerNoScript />
         <GoogleTagManager />
         <CookieConsent />
