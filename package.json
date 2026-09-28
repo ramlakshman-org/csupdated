@@ -12,6 +12,8 @@
     "optimize-images:batch": "node scripts/optimize-images.mjs --input ./images --output ./optimized --heroes-all --batch"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "framer-motion": "^13.1.0",
     "next": "16.3.0",
     "react": "19.2.8",

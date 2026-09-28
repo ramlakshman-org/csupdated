@@ -10,6 +10,8 @@ import {
 } from "@/components/GoogleTagManager";
 import CookieConsent from "@/components/CookieConsent";
 import { company } from "@/lib/data";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -60,6 +62,8 @@ export default function RootLayout({
         <ClientWidgets />
         <Navbar />
         <main>{children}</main>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
