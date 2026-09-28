@@ -70,13 +70,13 @@ export default function HeroSection() {
 
   return (
     <section className={styles.hero} id="hero" ref={ref}>
-      <GridBackground hero />
+      <GridBackground hero preload />
       <div className={styles.rightGlow} aria-hidden>
         <Image
           src="/images/hero-gradient.webp"
           alt=""
           fill
-          priority
+          preload
           className={styles.rightGlowImg}
           sizes="55vw"
         />
@@ -93,8 +93,8 @@ export default function HeroSection() {
               rel="noopener noreferrer"
               aria-label={social.label}
               className={styles.socialLink}
-              initial={{ opacity: 0, y: 28, filter: "blur(8px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              initial={{ opacity: 0, y: 28 }}
+              animate={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 1.08 }}
               transition={{ delay: 1 + i * 0.1, duration: 0.7, ease: easeOut }}
             >

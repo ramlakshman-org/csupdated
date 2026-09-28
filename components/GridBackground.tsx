@@ -10,11 +10,13 @@ export default function GridBackground({
   mesh = false,
   hero = false,
   subtle = false,
+  preload = false,
 }: {
   parallax?: boolean;
   mesh?: boolean;
   hero?: boolean;
   subtle?: boolean;
+  preload?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -55,10 +57,11 @@ export default function GridBackground({
           style={{ y }}
         >
           <Image
-            src="/images/hero-gradient.png"
+            src="/images/hero-gradient.webp"
             alt=""
             fill
             unoptimized
+            preload={preload}
             className={styles.heroImg}
             sizes="100vw"
           />
