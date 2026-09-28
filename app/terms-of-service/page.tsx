@@ -12,7 +12,7 @@ export default function TermsPage() {
     <div className={styles.page}>
       <div className={styles.inner}>
         <h1 className={styles.title}>Terms of Service</h1>
-        <p className={styles.updated}>Last updated: 26 September 2025</p>
+        <p className={styles.updated}>Last updated: 29 September 2026</p>
 
         <section className={styles.section}>
           <h2>1. Agreement to Terms</h2>
