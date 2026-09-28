@@ -11,12 +11,14 @@ export default function GridBackground({
   hero = false,
   subtle = false,
   preload = false,
+  priority = false,
 }: {
   parallax?: boolean;
   mesh?: boolean;
   hero?: boolean;
   subtle?: boolean;
   preload?: boolean;
+  priority?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -62,8 +64,10 @@ export default function GridBackground({
             fill
             unoptimized
             preload={preload}
+            priority={priority}
+            fetchPriority={priority ? "high" : "auto"}
             className={styles.heroImg}
-            sizes="100vw"
+            sizes="55vw"
           />
         </motion.div>
       ) : null}
