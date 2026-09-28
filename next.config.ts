@@ -318,6 +318,37 @@ const nextConfig: NextConfig = {
         destination: "/contact",
         permanent: false,
       },
+      // Dead URLs from old site — 301 to closest matching page
+      {
+        source: "/cloud-migrations/:path*",
+        destination: "/managed-cloud",
+        permanent: true,
+      },
+      {
+        source: "/services/location/dubai/:path*",
+        destination: "/managed-cloud",
+        permanent: true,
+      },
+      {
+        source: "/services/location/austin/:path*",
+        destination: "/managed-cloud",
+        permanent: true,
+      },
+      {
+        source: "/services/location/:path*",
+        destination: "/managed-cloud",
+        permanent: true,
+      },
+      {
+        source: "/legal/terms",
+        destination: "/terms-of-service",
+        permanent: true,
+      },
+      {
+        source: "/legal/privacy",
+        destination: "/privacy-policy",
+        permanent: true,
+      },
     ];
   },
 };

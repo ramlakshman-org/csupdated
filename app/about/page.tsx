@@ -26,7 +26,7 @@ export default function AboutPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
             >
-              Est. {company.founded}
+              Azure Expert MSP · Bengaluru
             </motion.p>
             <motion.h1
               className={styles.heroTitle}
