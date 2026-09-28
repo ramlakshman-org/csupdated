@@ -1,11 +1,86 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import { company } from "@/lib/data";
 import styles from "./ContactPage.module.css";
+
+const SERVICE_OPTIONS = [
+  "Cloud Migration",
+  "Managed Azure",
+  "Managed AWS",
+  "Dynamics 365",
+  "Microsoft 365",
+  "AI Services",
+  "Managed Security",
+  "Help Desk",
+  "Other",
+];
+
+function CustomSelect({
+  value,
+  onChange,
+}: {
+  value: string;
+  onChange: (v: string) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const handleClick = (e: MouseEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [open]);
+
+  return (
+    <div ref={wrapRef} className={styles.selectWrap}>
+      <button
+        type="button"
+        className={styles.selectTrigger}
+        onClick={() => setOpen((o) => !o)}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+      >
+        <span>{value}</span>
+        <svg
+          width="10"
+          height="6"
+          viewBox="0 0 10 6"
+          aria-hidden
+          className={open ? styles.chevronOpen : undefined}
+        >
+          <path fill="rgba(255,255,255,0.45)" d="M0 0l5 6 5-6z" />
+        </svg>
+      </button>
+      {open && (
+        <ul className={styles.selectDropdown} role="listbox">
+          {SERVICE_OPTIONS.map((opt) => (
+            <li
+              key={opt}
+              role="option"
+              aria-selected={opt === value}
+              className={`${styles.selectOption} ${opt === value ? styles.selectOptionActive : ""}`}
+              onMouseDown={() => {
+                onChange(opt);
+                setOpen(false);
+              }}
+            >
+              {opt}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 
 export default function ContactPage() {
   const ref = useRef(null);
@@ -257,25 +332,13 @@ export default function ContactPage() {
                   </div>
 
                   <div className={styles.fieldGroup}>
-                    <label className={styles.label} htmlFor="interest">
+                    <label className={styles.label}>
                       Service interest
                     </label>
-                    <select
-                      id="interest"
-                      className={styles.input}
+                    <CustomSelect
                       value={form.interest}
-                      onChange={(e) => setForm({ ...form, interest: e.target.value })}
-                    >
-                      <option>Cloud Migration</option>
-                      <option>Managed Azure</option>
-                      <option>Managed AWS</option>
-                      <option>Dynamics 365</option>
-                      <option>Microsoft 365</option>
-                      <option>AI Services</option>
-                      <option>Managed Security</option>
-                      <option>Help Desk</option>
-                      <option>Other</option>
-                    </select>
+                      onChange={(v) => setForm({ ...form, interest: v })}
+                    />
                   </div>
 
                   <div className={styles.fieldGroup}>
