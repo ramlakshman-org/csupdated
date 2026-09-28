@@ -205,7 +205,6 @@ export default function HeroCarousel() {
                   src={normalizeImageSrc(slide.image)}
                   alt={slide.heading}
                   fill
-                  priority={index === 0 || index === 1}
                   className={styles.slideImage}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 70vw, 850px"
                 />
