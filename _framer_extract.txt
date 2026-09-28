@@ -1,0 +1,2442 @@
+=== UNIQUE data-framer-name VALUES ===
+# Mobile &amp; web apps
+01
+1 line H1
+2 line H1
+64+ → 64+
+About
+About me
+About me wrapper
+Arrow Up
+Author Info
+BG
+BG - gradient (5)
+Backdrop
+Black Desktop
+Body
+Border
+Bottom
+Built in
+Button
+CTA 1
+Category
+Container
+Content
+Craft CMS
+Desktop
+Desktop 
+Desktop Closed
+Dignissim in ullamcorper quam morbi est ipsum lectus eget. Lobortis sed elit commodo et suspendisse enim.
+Do you offer custom designs or templates?
+Ellipse 18
+FAQ
+FAQ stack
+Feedback Text
+Footer Links
+Frame 2087325246
+Frame 2087325251
+Get template button
+Header
+Headline
+Headline Text Container
+Hero
+I help creatives and growing brands turn ideas into polished digital experiences — from clean UI in Figma to fast, responsive sites in Framer. Design and performance with purpose.
+Image
+Image (500 x 705)
+Introduction Text
+Left
+Letʼs talk
+Light
+Logo
+Main Image
+Menu
+Menu Button
+Mobile
+Mobile 
+Mobile Closed
+Name
+New
+New tab
+Notable Work Container
+Off
+Phone
+Picture 1
+Picture 2
+Picture 3
+Picture 4
+Portfiolio
+Privacy Policy
+Profile
+Reveal Text
+Right
+SVG
+Services
+Shape
+Stat Value Container
+Stats
+Tablet
+Tablet Closed
+Terms of Service
+Testimonial
+Testimonials
+Testimonials stack
+Text
+Text-1
+Text-1 (2nd)
+Text-2
+Text-3
+Text-4
+Title
+Top info
+Top text
+Union
+Variant 1
+Variant 2
+Variant 3
+Vector
+Vector 1
+We are focused on developing web solutions with Craft CMS, an easy to use content management system where admins can alter or add content to a website.
+background
+branding
+container
+content
+gradient
+info
+projects
+r-circle 1
+scroll Container
+word 1
+word 2
+word 3
+word 4
+x
+COUNT: 111
+
+=== @KEYFRAMES ===
+=== animation: CSS RULES (sample) ===
+Found ~3 rules with animation:
+SEL: ;function fe(e,r,t)
+SEL: ),b.set(n,
+SEL: );let f=()=>
+
+Unique animation values:
+  K,startTime:null
+  a,startTime:X
+  i,startTime:n
+
+=== ELEMENTS WITH data-framer-name + style (Hero/Picture/Stats related) ===
+NAME: Logo
+  tag=div appear=
+  class=framer-aliyon
+
+NAME: Logo
+  tag=a appear=
+  class=framer-194t3d7 framer-yjats6
+
+NAME: Menu Button
+  tag=div appear=
+  class=framer-1kzia1n
+
+NAME: Menu
+  tag=a appear=
+  class=framer-VKoOr framer-aklNh framer-1wj5u22 framer-v-1wj5u22 framer-ses6oo
+  style=--border-bottom-width:0.5px;--border-color:var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0.5));--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0.5px
+
+NAME: Logo
+  tag=div appear=
+  class=framer-aliyon
+
+NAME: Logo
+  tag=a appear=
+  class=framer-194t3d7 framer-yjats6
+
+NAME: Menu Button
+  tag=div appear=
+  class=framer-1kzia1n
+
+NAME: Menu
+  tag=a appear=
+  class=framer-VKoOr framer-aklNh framer-1wj5u22 framer-v-1wj5u22 framer-ses6oo
+  style=--border-bottom-width:0.5px;--border-color:var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0.5));--border-left-width:0px;--border-right-width:0px;--border-style:solid;--border-top-width:0.5px
+
+NAME: Hero
+  tag=div appear=
+  class=framer-1vj30qr
+  style=will-change:transform;opacity:1;transform:none
+
+NAME: Title
+  tag=div appear=
+  class=framer-18rc3i7
+
+NAME: Headline Text Container
+  tag=div appear=
+  class=framer-6glbk3
+
+NAME: Headline
+  tag=div appear=
+  class=framer-15iaeny
+  style=transform:none
+
+NAME: Headline
+  tag=div appear=
+  class=framer-1e5ljix
+  style=transform:none
+
+NAME: Picture 4
+  tag=div appear=
+  class=framer-11pawzc
+  style=will-change:transform;opacity:1;transform:translateX(303px) translateY(-200px) scale(0.5)
+
+NAME: Picture 4
+  tag=div appear=
+  class=framer-11pawzc
+  style=will-change:transform;opacity:1;transform:translateX(10px) translateY(-90px) scale(0.5)
+
+NAME: Picture 3
+  tag=div appear=
+  class=framer-6tp0k6
+  style=will-change:transform;opacity:1;transform:translateX(-312px) translateY(-200px) scale(0.5)
+
+NAME: Picture 3
+  tag=div appear=
+  class=framer-6tp0k6
+  style=will-change:transform;opacity:1;transform:translateX(10px) translateY(-90px) scale(0.5)
+
+NAME: Picture 2
+  tag=div appear=
+  class=framer-mde8w
+  style=will-change:transform;opacity:1;transform:translateX(-336px) translateY(160px) scale(0.5)
+
+NAME: Picture 2
+  tag=div appear=
+  class=framer-mde8w
+  style=will-change:transform;opacity:1;transform:translateX(-50px) translateY(90px) scale(0.5)
+
+NAME: Picture 1
+  tag=div appear=
+  class=framer-1fl235r
+  style=will-change:transform;opacity:1;transform:translateX(348px) translateY(160px) scale(0.5)
+
+NAME: Picture 1
+  tag=div appear=
+  class=framer-1fl235r
+  style=will-change:transform;opacity:1;transform:translateX(50px) translateY(90px) scale(0.5)
+
+NAME: Stats
+  tag=div appear=
+  class=framer-x05kp0
+
+NAME: word 1
+  tag=div appear=
+  class=framer-1yagc5b
+  style=will-change:transform;opacity:1;transform:perspective(1200px) translateY(100px)
+
+NAME: projects
+  tag=div appear=
+  class=framer-63vcu1
+  style=transform:none
+
+NAME: projects
+  tag=div appear=
+  class=framer-63vcu1
+  style=transform:none
+
+NAME: Stat Value Container
+  tag=div appear=
+  class=framer-4kae54
+
+NAME: word 2
+  tag=div appear=
+  class=framer-b4cjs1
+  style=will-change:transform;opacity:1;transform:perspective(1200px) translateY(100px)
+
+NAME: Stat Value Container
+  tag=div appear=
+  class=framer-uwx6xc
+
+NAME: projects
+  tag=div appear=
+  class=framer-nb4eoe
+  style=transform:none
+
+NAME: projects
+  tag=div appear=
+  class=framer-nb4eoe
+  style=transform:none
+
+NAME: word 3
+  tag=div appear=
+  class=framer-4j8rh1
+  style=will-change:transform;opacity:1;transform:perspective(1200px) translateY(100px)
+
+NAME: projects
+  tag=div appear=
+  class=framer-mkf0nh
+  style=transform:none
+
+NAME: projects
+  tag=div appear=
+  class=framer-mkf0nh
+  style=transform:none
+
+NAME: Stat Value Container
+  tag=div appear=
+  class=framer-1bkxoa4
+
+NAME: word 4
+  tag=div appear=
+  class=framer-1x71l5b
+  style=will-change:transform;opacity:1;transform:perspective(1200px) translateY(100px)
+
+NAME: Stat Value Container
+  tag=div appear=
+  class=framer-me60i3
+
+NAME: projects
+  tag=div appear=
+  class=framer-hoer5
+  style=transform:none
+
+NAME: projects
+  tag=div appear=
+  class=framer-hoer5
+  style=transform:none
+
+NAME: Title
+  tag=div appear=
+  class=framer-17pw83r
+
+NAME: Logo
+  tag=div appear=
+  class=framer-a8xp7t
+  style=transform:translateX(-50%)
+
+NAME: Logo
+  tag=div appear=
+  class=framer-a8xp7t
+  style=transform:translateX(-50%)
+
+NAME: Logo
+  tag=div appear=
+  class=framer-a8xp7t
+  style=transform:translateX(-50%)
+
+NAME: Logo
+  tag=div appear=
+  class=framer-a8xp7t
+  style=transform:translateX(-50%)
+
+NAME: Logo
+  tag=div appear=
+  class=framer-a8xp7t
+  style=transform:translateX(-50%)
+
+NAME: Logo
+  tag=div appear=
+  class=framer-a8xp7t
+  style=transform:translateX(-50%)
+
+NAME: Services
+  tag=section appear=
+  class=framer-33ol97
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Title
+  tag=div appear=
+  class=framer-1p5xn73
+
+NAME: Testimonials
+  tag=section appear=
+  class=framer-1xntlbu
+
+NAME: Testimonials stack
+  tag=div appear=
+  class=framer-1wyflzi
+
+NAME: Testimonial
+  tag=div appear=
+  class=framer-1fjtz0t
+  style=--extracted-r6o4lv:var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12));--framer-paragraph-spacing:0px;transform:none
+
+NAME: Testimonial
+  tag=div appear=
+  class=framer-1fjtz0t
+  style=--extracted-r6o4lv:var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12));--framer-paragraph-spacing:0px;transform:none
+
+NAME: Testimonial
+  tag=div appear=
+  class=framer-1fjtz0t
+  style=--extracted-r6o4lv:var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12));--framer-paragraph-spacing:0px;transform:none
+
+NAME: Testimonial
+  tag=div appear=
+  class=framer-1fjtz0t
+  style=--extracted-r6o4lv:var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12));--framer-paragraph-spacing:0px;transform:none
+
+NAME: Testimonial
+  tag=div appear=
+  class=framer-1fjtz0t
+  style=--extracted-r6o4lv:var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12));--framer-paragraph-spacing:0px;transform:none
+
+NAME: Testimonial
+  tag=div appear=
+  class=framer-1fjtz0t
+  style=--extracted-r6o4lv:var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12));--framer-paragraph-spacing:0px;transform:none
+
+NAME: FAQ stack
+  tag=div appear=
+  class=framer-12ue2z2
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ stack
+  tag=div appear=
+  class=framer-12ue2z2
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ stack
+  tag=div appear=
+  class=framer-12ue2z2
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: FAQ
+  tag=div appear=
+  class=framer-1kbaa8s
+
+NAME: projects
+  tag=div appear=
+  class=framer-1d0qu56
+  style=--framer-paragraph-spacing:0px;transform:none
+
+NAME: Bottom
+  tag=div appear=
+  class=framer-yw6de4
+
+NAME: Footer Links
+  tag=div appear=
+  class=framer-jkcw9m
+
+NAME: Terms of Service
+  tag=a appear=
+  class=framer-jpucq0 framer-obpbuq
+
+NAME: projects
+  tag=div appear=
+  class=framer-1d0qu56
+  style=--framer-paragraph-spacing:0px;transform:none
+
+NAME: Bottom
+  tag=div appear=
+  class=framer-yw6de4
+
+NAME: projects
+  tag=div appear=
+  class=framer-1d0qu56
+  style=--framer-paragraph-spacing:0px;transform:none
+
+NAME: Bottom
+  tag=div appear=
+  class=framer-yw6de4
+
+NAME: Footer Links
+  tag=div appear=
+  class=framer-laa5cp
+
+NAME: Terms of Service
+  tag=a appear=
+  class=framer-130lpja framer-obpbuq
+
+NAME: Logo
+  tag=div appear=
+  class=framer-hcsc7 framer-e50co
+  style=--1bd4d3i:rgb(0, 0, 0);--otdjsv:rgb(0, 0, 0);transform:translateX(-50%)
+
+NAME: Bottom
+  tag=div appear=
+  class=framer-j4ugry
+  style=mask:linear-gradient(180deg, rgba(0,0,0,0) 65%, rgba(0,0,0,1) 100%) add;-webkit-mask:linear-gradient(180deg, rgba(0,0,0,0) 65%, rgba(0,0,0,1) 100%) add;border-bottom-left-radius:11px;border-bottom-right-radius:11px;border-top-left-radius:11px;border-top-right-radius:11px;box-shadow:inset 0px 0px 0px 1px rgb(0, 0, 0);opacity:0.06
+
+=== --framer-* CSS VARIABLES (unique) ===
+--framer-aspect-ratio-supported
+--framer-blockquote-font-family
+--framer-blockquote-font-family-bold
+--framer-blockquote-font-family-bold-italic
+--framer-blockquote-font-family-italic
+--framer-blockquote-font-size
+--framer-blockquote-font-style
+--framer-blockquote-font-style-bold
+--framer-blockquote-font-style-bold-italic
+--framer-blockquote-font-style-italic
+--framer-blockquote-font-variation-axes-bold
+--framer-blockquote-font-variation-axes-bold-italic
+--framer-blockquote-font-variation-axes-italic
+--framer-blockquote-font-weight
+--framer-blockquote-font-weight-bold
+--framer-blockquote-font-weight-bold-italic
+--framer-blockquote-font-weight-italic
+--framer-blockquote-letter-spacing
+--framer-blockquote-line-height
+--framer-blockquote-paragraph-spacing
+--framer-blockquote-text-alignment
+--framer-blockquote-text-background-color
+--framer-blockquote-text-background-color-rgb
+--framer-blockquote-text-background-corner-shape
+--framer-blockquote-text-background-padding
+--framer-blockquote-text-background-radius
+--framer-blockquote-text-color
+--framer-blockquote-text-color-rgb
+--framer-blockquote-text-decoration
+--framer-blockquote-text-decoration-color
+--framer-blockquote-text-decoration-offset
+--framer-blockquote-text-decoration-skip-ink
+--framer-blockquote-text-decoration-style
+--framer-blockquote-text-decoration-thickness
+--framer-blockquote-text-transform
+--framer-canvas-fixed-position
+--framer-code-font-family
+--framer-code-font-style
+--framer-code-font-weight
+--framer-code-text-color
+--framer-code-text-color-rgb
+--framer-custom-cursors
+--framer-font-family
+--framer-font-family-bold
+--framer-font-family-bold-italic
+--framer-font-family-italic
+--framer-font-family-preview
+--framer-font-open-type-features
+--framer-font-size
+--framer-font-size-scale
+--framer-font-style
+--framer-font-style-bold
+--framer-font-style-bold-italic
+--framer-font-style-italic
+--framer-font-style-preview
+--framer-font-variation-axes
+--framer-font-variation-axes-bold
+--framer-font-variation-axes-bold-italic
+--framer-font-variation-axes-italic
+--framer-font-variation-axes-preview
+--framer-font-weight
+--framer-font-weight-bold
+--framer-font-weight-bold-italic
+--framer-font-weight-increase
+--framer-font-weight-italic
+--framer-font-weight-preview
+--framer-letter-spacing
+--framer-line-height
+--framer-link-current-font-family
+--framer-link-current-font-size
+--framer-link-current-font-style
+--framer-link-current-font-weight
+--framer-link-current-text-background-color
+--framer-link-current-text-background-color-rgb
+--framer-link-current-text-background-corner-shape
+--framer-link-current-text-background-padding
+--framer-link-current-text-background-radius
+--framer-link-current-text-color
+--framer-link-current-text-color-rgb
+--framer-link-current-text-decoration
+--framer-link-current-text-decoration-color
+--framer-link-current-text-decoration-color-rgb
+--framer-link-current-text-decoration-offset
+--framer-link-current-text-decoration-skip-ink
+--framer-link-current-text-decoration-style
+--framer-link-current-text-decoration-thickness
+--framer-link-current-text-transform
+--framer-link-font-family
+--framer-link-font-size
+--framer-link-font-style
+--framer-link-font-weight
+--framer-link-hover-font-family
+--framer-link-hover-font-size
+--framer-link-hover-font-style
+--framer-link-hover-font-weight
+--framer-link-hover-text-background-color
+--framer-link-hover-text-background-color-rgb
+--framer-link-hover-text-background-corner-shape
+--framer-link-hover-text-background-padding
+--framer-link-hover-text-background-radius
+--framer-link-hover-text-color
+--framer-link-hover-text-color-rgb
+--framer-link-hover-text-decoration
+--framer-link-hover-text-decoration-color
+--framer-link-hover-text-decoration-color-rgb
+--framer-link-hover-text-decoration-offset
+--framer-link-hover-text-decoration-skip-ink
+--framer-link-hover-text-decoration-style
+--framer-link-hover-text-decoration-thickness
+--framer-link-hover-text-transform
+--framer-link-text-background-color
+--framer-link-text-background-color-rgb
+--framer-link-text-background-corner-shape
+--framer-link-text-background-padding
+--framer-link-text-background-radius
+--framer-link-text-color
+--framer-link-text-color-rgb
+--framer-link-text-decoration
+--framer-link-text-decoration-color
+--framer-link-text-decoration-color-rgb
+--framer-link-text-decoration-offset
+--framer-link-text-decoration-skip-ink
+--framer-link-text-decoration-style
+--framer-link-text-decoration-thickness
+--framer-link-text-transform
+--framer-paragraph-spacing
+--framer-text-alignment
+--framer-text-background-color
+--framer-text-background-color-rgb
+--framer-text-background-corner-shape
+--framer-text-background-padding
+--framer-text-background-radius
+--framer-text-color
+--framer-text-color-rgb
+--framer-text-decoration
+--framer-text-decoration-color
+--framer-text-decoration-color-rgb
+--framer-text-decoration-offset
+--framer-text-decoration-skip-ink
+--framer-text-decoration-style
+--framer-text-decoration-thickness
+--framer-text-stroke-color
+--framer-text-stroke-color-rgb
+--framer-text-stroke-width
+--framer-text-transform
+--framer-text-wrap
+--framer-text-wrap-override
+--framer-viewport-height
+--framer-will-change-effect-override
+--framer-will-change-filter-override
+--framer-will-change-override
+COUNT: 151
+
+=== --framer-* VARIABLE DEFINITIONS (with values) ===
+--framer-will-change-override: transform
+--framer-will-change-filter-override: filter
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 32px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 26px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 24px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-will-change-override: none
+--framer-will-change-override: transform
+--framer-will-change-filter-override: none
+--framer-will-change-filter-override: filter
+--framer-font-family: Inter,Inter Placeholder,sans-serif
+--framer-font-style: normal
+--framer-font-weight: 500
+--framer-text-color: #000
+--framer-font-size: 16px
+--framer-letter-spacing: 0
+--framer-text-transform: none
+--framer-text-decoration: none
+--framer-text-decoration-style: none
+--framer-text-decoration-color: none
+--framer-text-decoration-thickness: none
+--framer-text-decoration-skip-ink: none
+--framer-text-decoration-offset: none
+--framer-line-height: 1
+--framer-text-alignment: start
+--framer-font-open-type-features: normal
+--framer-text-background-color: initial
+--framer-text-background-radius: initial
+--framer-text-background-corner-shape: initial
+--framer-text-background-padding: initial
+--framer-font-family: Inter,Inter Placeholder,sans-serif
+--framer-font-style: normal
+--framer-font-weight: 500
+--framer-text-color: #000
+--framer-font-size: 16px
+--framer-letter-spacing: 0
+--framer-text-transform: none
+--framer-text-decoration: none
+--framer-line-height: 1
+--framer-text-alignment: start
+--framer-font-open-type-features: normal
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 120px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 100px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 62px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 120px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 200
+--framer-font-weight-bold: 400
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: start
+--framer-text-color: var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce,#ffffff80)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 100px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 200
+--framer-font-weight-bold: 400
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: start
+--framer-text-color: var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce,#ffffff80)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 62px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 200
+--framer-font-weight-bold: 400
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: start
+--framer-text-color: var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce,#ffffff80)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 20px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 18px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 95px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: -
+--framer-line-height: 80%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: right
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: capitalize
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 86px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: -
+--framer-line-height: 80%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: right
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: capitalize
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 50px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: right
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: capitalize
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 120px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 140%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: left
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 100px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 140%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: left
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 62px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 140%
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: left
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 32px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 24px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 17px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 170%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: left
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 15px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 170%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: left
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 15px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 170%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce,#ffffff80)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 22px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #010101
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 18px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #010101
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 15px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-line-height: 170%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: uppercase
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 20px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 18px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 10px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce,#ffffff80)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: lowercase
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 32px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 24px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 20px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 20px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 18px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 26px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 26px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 22px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 160%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 16px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 14px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 18px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 32px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 32px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 24px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: -
+--framer-line-height: 130%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: start
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-link-hover-text-color: var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada,#ffffffb3)
+--framer-link-hover-text-decoration: none
+--framer-link-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Inter",sans-serif
+--framer-font-family-bold-italic: "Inter",sans-serif
+--framer-font-family-italic: "Inter","Inter Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 60px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-style-bold-italic: italic
+--framer-font-style-italic: italic
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 900
+--framer-font-weight-bold-italic: 900
+--framer-font-weight-italic: 700
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: right
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Inter",sans-serif
+--framer-font-family-bold-italic: "Inter",sans-serif
+--framer-font-family-italic: "Inter","Inter Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 60px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-style-bold-italic: italic
+--framer-font-style-italic: italic
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 900
+--framer-font-weight-bold-italic: 900
+--framer-font-weight-italic: 700
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: right
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Inter",sans-serif
+--framer-font-family-bold-italic: "Inter",sans-serif
+--framer-font-family-italic: "Inter","Inter Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 50px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-style-bold-italic: italic
+--framer-font-style-italic: italic
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 900
+--framer-font-weight-bold-italic: 900
+--framer-font-weight-italic: 700
+--framer-letter-spacing: -
+--framer-line-height: 100%
+--framer-paragraph-spacing: 40px
+--framer-text-alignment: right
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 22px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #010101
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 22px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #010101
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 18px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #010101
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Inter","Inter Placeholder",sans-serif
+--framer-font-family-bold-italic: "Inter","Inter Placeholder",sans-serif
+--framer-font-family-italic: "Inter","Inter Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 16px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-style-bold-italic: italic
+--framer-font-style-italic: italic
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-font-weight-bold-italic: 700
+--framer-font-weight-italic: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-aspect-ratio-supported: auto
+--framer-aspect-ratio-supported: auto
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 17px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 170%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: left
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 17px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 170%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: left
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 15px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 300
+--framer-font-weight-bold: 400
+--framer-letter-spacing: 0em
+--framer-line-height: 170%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: left
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03,#fff)
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 16px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 16px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-font-family: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-family-bold: "Manrope","Manrope Placeholder",sans-serif
+--framer-font-open-type-features: normal
+--framer-font-size: 14px
+--framer-font-style: normal
+--framer-font-style-bold: normal
+--framer-font-variation-axes: normal
+--framer-font-weight: 400
+--framer-font-weight-bold: 700
+--framer-letter-spacing: 0em
+--framer-line-height: 150%
+--framer-paragraph-spacing: 20px
+--framer-text-alignment: start
+--framer-text-color: #fff
+--framer-text-decoration: none
+--framer-text-stroke-color: initial
+--framer-text-stroke-width: initial
+--framer-text-transform: none
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">contact me</p></div><div class="framer-1lyssgx" 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">contact me</p></div></div></div></div><div class
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255))">For 7+ years, I’ve been helping brands and creati
+--framer-text-alignment: left
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255))">For 7+ years, I’ve been helping brands and creati
+--framer-text-alignment: left">projects</h2></div></div><div class="framer-1y7dr85"><div class="framer-4kae54" data-framer-name="Stat Value Conta
+--framer-text-alignment: left">Years experience</h2></div></div></div><div class="framer-4j8rh1" data-framer-name="word 3" style="will-change:tra
+--framer-text-alignment: left">Happy Clients</h2></div></div><div class="framer-8n4707"><div class="framer-1bkxoa4" data-framer-name="Stat Value 
+--framer-text-alignment: left">Awards</h2></div></div></div></div></div><div class="ssr-variant"><div class="framer-i0x3sc" data-framer-name="BG"
+--framer-text-color: var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255))"><strong class="framer-text">Discover a selection 
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255))"><strong class="framer-text">Discover a selection 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">see all works</p></div><div class="framer-1lyssg
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">see all works</p></div></div></div></div><div cl
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Mobile app that helps us
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">UX &amp
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Mobile app that helps us
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">UX &amp
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">A seamless car rental se
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Branding</p></div></div>
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">A seamless car rental se
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Branding</p></div></div>
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">A modern mobile app for 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Design &amp
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">A modern mobile app for 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Design &amp
+--framer-text-color: var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">UI / UX Design</h6></di
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">UI / UX Design</h6></di
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">I design user-first inte
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">UI / UX Design</h6></di
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">I design user-first inte
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Web Design</h6></div><d
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Web Design</h6></div><d
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">From landing pages to fu
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Web Design</h6></div><d
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">From landing pages to fu
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Branding</h6></div><div
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Branding</h6></div><div
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">I help shape bold, cohes
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Branding</h6></div><div
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">I help shape bold, cohes
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Framer Development</h6>
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Framer Development</h6>
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">I bring your designs to 
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Framer Development</h6>
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">I bring your designs to 
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1xagvsk" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-ni3nu6" data-framer-name="branding" data-framer-component-type="RichTextContain
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 14px
+--framer-font-weight: 300
+--framer-letter-spacing: -0
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-transform: lowercase">#</p></div><div class="framer-1imp5kh" data-framer-name="branding" data-framer-component-type="RichTextContai
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-color: var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-text-color: var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255))" class="framer-text"><strong class="framer-text">A
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">04
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">“It was a very cool experie
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">Emily Carter</p></div><div 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">Founder at Bloom Agency</p></div></div></div></div></div><div class="ssr-varia
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">04
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">“It was a very cool experie
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">Emily Carter</p></div><div 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">Founder at Bloom Agency</p></div></div></div></div></div><div class="ssr-varia
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">04
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">“I’m really impressed with 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">Gary Mitchell</p></div><div
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">Indesign Group Co-Founder</p></div></div></div></div></div><div class="ssr-var
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">04
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">“I’m really impressed with 
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">Gary Mitchell</p></div><div
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">Indesign Group Co-Founder</p></div></div></div></div></div><div class="ssr-var
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">12
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">“Great collaboration from s
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">Sofia Martinez</p></div><di
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">Marketing Lead at Nutrio Appʼ</p></div></div></div></div></div><div class="ssr
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">12
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">“Great collaboration from s
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-e5a910e4-bdea-462a-af15-d6d1132b60b2, rgb(10, 10, 12)))">Sofia Martinez</p></div><di
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, rgb(96, 97, 99))">Marketing Lead at Nutrio Appʼ</p></div></div></div></div></div></div></div></s
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1eung3n, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w3ko1f, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))"><strong class="framer-t
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">How long does it take t
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Do you offer custom des
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Will my website work on
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Can I update the websit
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1eung3n, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))"><strong class="framer-te
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">How long does it take t
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Do you offer custom des
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Will my website work on
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Can I update the websit
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1eung3n, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w3ko1f, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))"><strong class="framer-t
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">How long does it take t
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Do you offer custom des
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Will my website work on
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Can I update the websit
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Nyro Silvan</p></div><di
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))"><!--$--><a class="frame
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">book a call</p></div><div class="framer-1lyssgx"
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">book a call</p></div></div></div></div><div clas
+--framer-text-alignment: left">Get in touch and let’s turn concepts into stunning websites</h5></div><div class="framer-1ycdzob" data-framer-name
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">© Nyro Silvan 2025 | All
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Terms of Service</p></div><div class="framer-1ly
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Terms of Service</p></div></div></div></div></a>
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Privacy Policy</p></div><div class="framer-1lyss
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Privacy Policy</p></div></div></div></div></a><!
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Built in Framer</p></div><div class="framer-1lys
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Built in Framer</p></div></div></div></div></a><
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Created by</p></div><div
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Tvorba</p></div><div class="framer-1lyssgx" data
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Tvorba</p></div></div></div></div></a><!--/$--><
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Nyro Silvan</p></div><di
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))"><!--$--><a class="frame
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center">Get in touch and let’s turn concepts into stunning websites</h5></div><div class="framer-1ycdzob" data-framer-na
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">book a call</p></div><div class="framer-1lyssgx"
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">book a call</p></div></div></div></div><div clas
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">© Nyro Silvan 2025 | All
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">book a call</p></div><div class="framer-1lyssgx"
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">book a call</p></div></div></div></div><div clas
+--framer-text-alignment: center">Get in touch and let’s turn concepts into stunning websites</h5></div><div class="framer-1ycdzob" data-framer-na
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-f49fc7de-3862-4f87-9192-b3c1464a6ada, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">Clark Rosenberg</p></div
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-r6o4lv, var(--token-9d9e3f83-4897-44f2-8a7e-4dd3b7f35bce, rgba(255, 255, 255, 0
+--framer-paragraph-spacing: 0px
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-1w1cjl5, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">clark@example
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--token-a2ff6e51-46f4-43bd-9193-b115ff4b5b03, rgb(255, 255, 255)))">© Clark Rosenberg 2025 |
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Terms of Service</p></div><div class="framer-1ly
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Terms of Service</p></div></div></div></div></a>
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Privacy Policy</p></div><div class="framer-1lyss
+--framer-paragraph-spacing: 0px
+--framer-text-color: var(--extracted-r6o4lv, var(--variable-reference-qPl8_r8S4-BL0wbMsze))">Privacy Policy</p></div></div></div></div></a><!
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 15px
+--framer-font-weight: 600
+--framer-letter-spacing: -0
+--framer-line-height: 170%
+--framer-text-color: var(--extracted-r6o4lv, var(--token-8303387e-d4c2-4989-af33-54d2c870c7ac, rgb(47, 47, 47)))">Get Template</p></div><div 
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 15px
+--framer-font-weight: 600
+--framer-letter-spacing: -0
+--framer-line-height: 170%
+--framer-text-color: var(--extracted-r6o4lv, var(--token-8303387e-d4c2-4989-af33-54d2c870c7ac, rgb(47, 47, 47)))">for</p></div><div class="fr
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 15px
+--framer-font-weight: 600
+--framer-letter-spacing: -0
+--framer-line-height: 170%
+--framer-text-color: var(--extracted-r6o4lv, var(--token-8303387e-d4c2-4989-af33-54d2c870c7ac, rgb(47, 47, 47)))">Free</p></div></a><!--/$-->
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 15px
+--framer-font-weight: 600
+--framer-letter-spacing: -0
+--framer-line-height: 170%
+--framer-text-color: var(--extracted-r6o4lv, var(--token-8303387e-d4c2-4989-af33-54d2c870c7ac, rgb(47, 47, 47)))">Get Template</p></div><div 
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 15px
+--framer-font-weight: 600
+--framer-letter-spacing: -0
+--framer-line-height: 170%
+--framer-text-color: var(--extracted-r6o4lv, var(--token-8303387e-d4c2-4989-af33-54d2c870c7ac, rgb(47, 47, 47)))">for</p></div><div class="fr
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 15px
+--framer-font-weight: 600
+--framer-letter-spacing: -0
+--framer-line-height: 170%
+--framer-text-color: var(--extracted-r6o4lv, var(--token-8303387e-d4c2-4989-af33-54d2c870c7ac, rgb(47, 47, 47)))">Free</p></div></a><!--/$-->
+--framer-paragraph-spacing: 0px
+--framer-font-family: &quot
+--framer-font-size: 12px
+--framer-font-weight: 700
+--framer-letter-spacing: 0
+--framer-line-height: 100%
+--framer-text-alignment: center
+--framer-text-color: var(--extracted-1eung3n, var(--token-8303387e-d4c2-4989-af33-54d2c870c7ac, rgb(47, 47, 47)))
+--framer-text-transform: uppercase">new</h4></div><div class="framer-em2y3x-container"><!--$--><div style="display:contents"></div><!--/$--></div
+
+=== data-framer-appear-id ELEMENTS WITH style ===
+appear-id=j4mkjb name=
+  class=framer-j4mkjb-container
+  style=--1i1ubjw:normal;opacity:0.001;transform:perspective(1200px) translateY(-160px)
+
+appear-id=1846tzp name=1 line H1
+  class=framer-1846tzp
+  style=opacity:0.001;transform:translateY(10px)
+
+appear-id=4y3eaq name=2 line H1
+  class=framer-4y3eaq
+  style=opacity:0.001;transform:translateY(10px)
+
+appear-id=9pzuyo name=
+  class=framer-9pzuyo
+  style=opacity:0.001;transform:rotateY(180deg)
+
+appear-id=m8o1h9 name=background
+  class=framer-m8o1h9
+  style=opacity:0.2;transform:scale(1.15)
+
+appear-id=m8o1h9 name=background
+  class=framer-m8o1h9
+  style=opacity:0.2;transform:translateX(-50%) scale(1.15)
+
+appear-id=wbze5i name=Get template button
+  class=framer-wbze5i-container
+  style=opacity:0.001;transform:translateY(40px)
+
+appear-id=1bns4u9 name=Get template button
+  class=framer-1bns4u9-container
+  style=opacity:0.001;transform:translateY(40px)
+
+appear-id=n0ccwk name=Light
+  class=framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge
+  style=will-change:transform;pointer-events:auto;opacity:0.001;transform:translateY(10px)
+
+=== CSS RULES mentioning transform/rotate for framer picture-like classes ===
+.framer-text {
+  --framer-font-family:Inter,Inter Placeholder,sans-serif;--framer-font-style:normal;--framer-font-weight:500;--framer-text-color:#000;--framer-font-size:16px;--framer-letter-spacing:0;--framer-text-transform:none;--framer-text-decoration:none;--framer-text-decoration-style:none;--framer-text-decoration-color:none;--framer-text-decoration-thickness:none;--framer-text-decoration-skip-ink:none;--framer-text-decoration-offset:none;--framer-line-height:1.2em;--framer-text-alignment:start;--framer-font-open-type-features:normal;--framer-text-background-color:initial;--framer-text-background-radius:initial;--framer-text-background-corner-shape:initial;--framer-text-background-padding:initial
+}
+
+.framer-l2wa4w-container {
+  z-index:1;flex:none;width:auto;height:auto;position:absolute;top:0;left:50%;transform:translate(-50%)
+}
+
+.framer-1d39cn8 {
+  flex-flow:column;flex:none;place-content:center flex-start;align-items:center;gap:40px;width:min-content;height:min-content;padding:0;display:flex;position:absolute;top:102px;left:50%;overflow:visible;transform:translate(-50%)
+}
+
+.framer-1jujwq6 {
+  aspect-ratio:1.0087;bottom:unset;height:var(--framer-aspect-ratio-supported,85px);left:93%;right:unset;width:86px;top:75%;transform:translate(-50%,-50%)
+}
+
+.framer-m8o1h9 {
+  aspect-ratio:1.39491;height:110vh;width:var(--framer-aspect-ratio-supported,1295px);left:50%;transform:translate(-50%)
+}
+
+.framer-1d39cn8 {
+  width:358px;top:50%;left:50%;transform:translate(-50%,-50%)
+}
