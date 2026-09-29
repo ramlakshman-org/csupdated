@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import styles from "../legal.module.css";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | CloudSwift Technologies",
+  title: { absolute: "Terms of Service | CloudSwift Technologies" },
   description:
     "Terms governing CloudSwift Technologies Pvt. Ltd. managed cloud, Microsoft Azure, and AI services.",
+  alternates: { canonical: "https://oncloudswift.com/terms-of-service" },
 };
 
 export default function TermsPage() {

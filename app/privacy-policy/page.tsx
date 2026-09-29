@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: { absolute: "Privacy Policy | CloudSwift Technologies" },
   description:
     "How CloudSwift Technologies Pvt. Ltd. collects, uses, and protects your personal data under the Digital Personal Data Protection Act, 2023.",
+  alternates: { canonical: "https://oncloudswift.com/privacy-policy" },
 };
 
 export default function PrivacyPage() {
