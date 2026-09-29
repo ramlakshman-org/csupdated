@@ -1,6 +1,6 @@
 # CloudSwift Technologies
 
-> Microsoft Azure Expert MSP delivering managed cloud, AI, and IT services for Indian startups and enterprises. 99.97% uptime SLA, 15-minute P1 response, 450+ clients.
+> Microsoft Azure Expert MSP delivering managed cloud, AI, and IT services for Indian enterprises. 99.97% uptime SLA, 15-minute P1 response, 450+ clients.
 
 ## Key Pages
 
@@ -24,7 +24,7 @@ Tagline: Stop Wasting Cloud Spend. Start Scaling Securely.
 
 ## What CloudSwift Does
 
-CloudSwift is a Microsoft Azure Expert MSP that designs, migrates, secures, and operates cloud infrastructure for Indian startups, SMBs, and enterprises.
+CloudSwift is a Microsoft Azure Expert MSP that designs, migrates, secures, and operates cloud infrastructure for Indian enterprises and SMBs.
 
 1. Managed Azure — landing zones, identity, cost optimisation, operations, monitoring
 2. Cloud Migration — 6R assessments, wave planning, lift-and-shift or modernisation

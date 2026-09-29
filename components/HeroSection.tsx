@@ -105,7 +105,7 @@ export default function HeroSection() {
 
         <div className={styles.inner}>
           <div className={styles.headline}>
-            <h1 className={styles.designing}>
+            <h1 className={styles.designing} aria-label="Running Azure, Cloud, Microsoft & AI for Indian Enterprises">
               <span className={styles.lineClip}>
                 <motion.span
                   className={styles.lineMask}

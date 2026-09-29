@@ -21,7 +21,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(company.website),
+  metadataBase: new URL("https://csupdated.vercel.app"),
   title: {
     default: `${company.name} — Cloud, AI & Managed IT Solutions Built for Modern Enterprises`,
     template: `%s — ${company.name}`,

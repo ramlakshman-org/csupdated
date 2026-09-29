@@ -52,7 +52,7 @@ export default function PlatformOrbit() {
             {platforms.map((p, i) => (
               <motion.li key={p.id} initial={{ opacity: 0, x: -24, filter: "blur(8px)" }} whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }} viewport={viewRow} transition={{ duration: 0.55, delay: i * 0.04, ease: easeOut }}>
                 <Link href={p.href} className={`${styles.row} ${active === p.id ? styles.rowOn : ""} ${active && active !== p.id ? styles.rowDim : ""}`} onMouseEnter={() => setActive(p.id)} onFocus={() => setActive(p.id)}>
-                  <span className={styles.num}>{p.n}</span><span className={styles.rowLogo}><Image src={p.logo} alt="" width={p.wide ? 40 : 22} height={22} /></span><span className={styles.rowCopy}><span className={styles.rowTitle}>{p.title}</span><span className={styles.rowSub}>{p.subtitle}</span></span><span className={styles.rowGo}>↗</span>
+                  <span className={styles.num}>{p.n}</span><span className={styles.rowLogo}><Image src={p.logo} alt={p.title} width={p.wide ? 40 : 22} height={22} /></span><span className={styles.rowCopy}><span className={styles.rowTitle}>{p.title}</span><span className={styles.rowSub}>{p.subtitle}</span></span><span className={styles.rowGo}>↗</span>
                 </Link>
               </motion.li>
             ))}

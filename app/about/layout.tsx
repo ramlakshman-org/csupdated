@@ -32,6 +32,15 @@ const webPageSchema = {
   "isPartOf": { "@type": "WebSite", "url": ORIGIN },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": ORIGIN },
+    { "@type": "ListItem", "position": 2, "name": "About", "item": `${ORIGIN}/about` },
+  ],
+};
+
 export const metadata: Metadata = {
   title: { absolute: "About CloudSwift — Azure Expert MSP for Indian Enterprises" },
   description:
@@ -60,6 +69,10 @@ export default function AboutLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
     </>
   );
