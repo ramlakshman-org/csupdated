@@ -25,7 +25,6 @@ export async function generateMetadata({
       title: project.title,
       description: project.description,
       url: `${ORIGIN}/solutions/${slug}`,
-      images: [{ url: "/og-default.png", width: 1200, height: 630 }],
     },
   };
 }

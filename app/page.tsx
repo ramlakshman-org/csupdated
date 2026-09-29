@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { faqs } from "@/lib/data";
 import HeroSection from "@/components/HeroSection";
 import TrustBar from "@/components/TrustBar";
 
@@ -12,7 +13,6 @@ export const metadata: Metadata = {
     description:
       "Managed Azure services for Indian startups and growing companies.",
     url: "https://oncloudswift.com",
-    images: [{ url: "/og-default.png", width: 1200, height: 630 }],
   },
 };
 import BadgeStrip from "@/components/BadgeStrip";
@@ -57,9 +57,10 @@ const organizationSchema = {
     "availableLanguage": ["English", "Hindi"]
   },
   "sameAs": [
-    "https://www.linkedin.com/company/cloudswift-technologies",
-    "https://twitter.com/CloudSwiftTech",
-    "https://www.instagram.com/cloudswift_technologies"
+    "https://www.linkedin.com/company/cloudswift-technologies-pvt-ltd",
+    "https://x.com/CloudSwiftTech",
+    "https://www.instagram.com/cloudswift_technologies/",
+    "https://www.youtube.com/@CloudSwiftTechnologies"
   ]
 };
 
@@ -81,6 +82,20 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqs.map((f) => ({
+              "@type": "Question",
+              "name": f.question,
+              "acceptedAnswer": { "@type": "Answer", "text": f.answer },
+            })),
+          }),
+        }}
       />
     </>
   );

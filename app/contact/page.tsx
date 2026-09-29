@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { faqs } from "@/lib/data";
 import ContactPage from "./ContactPage";
 
 export const metadata: Metadata = {
@@ -17,5 +18,22 @@ export const metadata: Metadata = {
 };
 
 export default function Contact() {
-  return <ContactPage />;
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.question,
+      "acceptedAnswer": { "@type": "Answer", "text": f.answer },
+    })),
+  };
+  return (
+    <>
+      <ContactPage />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+    </>
+  );
 }

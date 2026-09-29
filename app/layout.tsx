@@ -39,6 +39,11 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: company.name,
   },
+  twitter: {
+    card: "summary_large_image",
+    site: "@CloudSwiftTech",
+    creator: "@CloudSwiftTech",
+  },
 };
 
 export default function RootLayout({

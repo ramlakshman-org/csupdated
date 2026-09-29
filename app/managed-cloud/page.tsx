@@ -3,9 +3,16 @@ import OfferingCatalog from "@/components/OfferingCatalog";
 import { catalogManagedCloud } from "@/lib/catalog";
 
 export const metadata: Metadata = {
-  title: "Managed Cloud Services",
+  title: "Managed Cloud Services — Azure, AWS, GCP | CloudSwift Bengaluru",
   description:
-    "25 managed cloud services — Azure, AWS, GCP, Microsoft 365, Oracle, private cloud, security, and data centre.",
+    "25 managed cloud services — Azure, AWS, GCP, Microsoft 365, Oracle, private cloud, security, and data centre. Azure Expert MSP, Bengaluru.",
+  alternates: { canonical: "https://oncloudswift.com/managed-cloud" },
+  openGraph: {
+    title: "Managed Cloud Services — Azure, AWS, GCP | CloudSwift Bengaluru",
+    description:
+      "25 managed cloud services from CloudSwift — Azure Expert MSP headquartered in Bengaluru.",
+    url: "https://oncloudswift.com/managed-cloud",
+  },
 };
 
 export default function ManagedCloudPage() {

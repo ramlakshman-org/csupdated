@@ -24,10 +24,10 @@ export const company = {
   description:
     "CloudSwift is a Bengaluru-based Azure Expert MSP delivering cloud migration, Dynamics 365, Microsoft 365 managed services, and AI rollouts for 450+ enterprise clients across India, the Gulf, and the US.",
   about:
-    "Founded in 2023 and headquartered in Bengaluru, CloudSwift Technologies designs, migrates, secures, and operates enterprise cloud estates for 450+ clients across India, the UAE, and the US — with a 99.97% uptime SLA and 15-minute critical response.",
+    "Headquartered in Bengaluru, CloudSwift Technologies designs, migrates, secures, and operates enterprise cloud estates for 450+ clients across India, the UAE, and the US — with a 99.97% uptime SLA and 15-minute critical response.",
   intro:
     "At CloudSwift© we architect, secure, and operate enterprise digital infrastructure so you can focus on growth — not IT headaches.",
-  bio: "Founded in 2023, we help enterprises across India, the Gulf, and the US migrate, secure, and run cloud estates — Azure, AWS, GCP, Oracle, Microsoft 365, Dynamics 365, and AI — under one SLA.",
+  bio: "We help enterprises across India, the Gulf, and the US migrate, secure, and run cloud estates — Azure, AWS, GCP, Oracle, Microsoft 365, Dynamics 365, and AI — under one SLA.",
   founded: "2023",
   hq: "Bengaluru, India",
   email: "hello.in@oncloudswift.com",
@@ -57,7 +57,7 @@ export const company = {
     "AWS Partner",
     "Google Cloud Partner",
     "Oracle Cloud MSP",
-    "ISO 27001",
+    "ISO 27001 Certified",
     "SOC 2 Type II",
   ],
   logo: "/images/brand/logo.png",

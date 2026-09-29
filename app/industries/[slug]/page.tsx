@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: industry.title,
       description: industry.desc,
       url: `${ORIGIN}/industries/${industry.id}`,
-      images: [{ url: industry.image || "/og-default.png", width: 1200, height: 630 }],
+      ...(industry.image ? { images: [{ url: industry.image, width: 1200, height: 630 }] } : {}),
     },
   };
 }

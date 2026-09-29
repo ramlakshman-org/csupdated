@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     description:
       "Microsoft-certified Azure Expert MSP. Cloud migration, managed services, AI, and security for Indian enterprises.",
     url: `${ORIGIN}/about`,
-    images: [{ url: "/og-default.png", width: 1200, height: 630 }],
   },
 };
 

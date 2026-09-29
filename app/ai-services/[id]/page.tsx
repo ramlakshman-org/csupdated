@@ -33,7 +33,7 @@ export async function generateMetadata({
       title: item.title,
       description: item.desc,
       url: `${ORIGIN}/ai-services/${id}`,
-      images: [{ url: item.image || "/og-default.png", width: 1200, height: 630 }],
+      ...(item.image ? { images: [{ url: item.image, width: 1200, height: 630 }] } : {}),
     },
   };
 }

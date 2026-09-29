@@ -30,7 +30,7 @@ export async function generateMetadata({
       title: item.title,
       description: item.desc,
       url: `${ORIGIN}/services/${id}`,
-      images: [{ url: item.image || "/og-default.png", width: 1200, height: 630 }],
+      ...(item.image ? { images: [{ url: item.image, width: 1200, height: 630 }] } : {}),
     },
   };
 }
@@ -57,6 +57,37 @@ export default async function ServiceDetailPage({
     "areaServed": { "@type": "Country", "name": "India" },
     "url": `${ORIGIN}/services/${id}`
   };
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `What does CloudSwift's ${item.title} service include?`,
+        "acceptedAnswer": { "@type": "Answer", "text": item.desc },
+      },
+      {
+        "@type": "Question",
+        "name": `What SLA does CloudSwift offer for ${item.title}?`,
+        "acceptedAnswer": { "@type": "Answer", "text": "CloudSwift delivers a 99.97% uptime SLA with 15-minute P1 incident response, 24/7/365, across all managed IT services." },
+      },
+      {
+        "@type": "Question",
+        "name": `Which regions does CloudSwift cover for ${item.title}?`,
+        "acceptedAnswer": { "@type": "Answer", "text": "CloudSwift serves enterprises across India (Bengaluru and Mumbai), the Gulf (UAE), and North America (US entity in Delaware)." },
+      },
+    ],
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": ORIGIN },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": `${ORIGIN}/services` },
+      { "@type": "ListItem", "position": 3, "name": item.category, "item": `${ORIGIN}/services` },
+      { "@type": "ListItem", "position": 4, "name": item.title, "item": `${ORIGIN}/services/${id}` },
+    ],
+  };
   return (
     <>
       <OfferingDetail
@@ -65,10 +96,9 @@ export default async function ServiceDetailPage({
         basePath="/services"
         related={related}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     </>
   );
 }

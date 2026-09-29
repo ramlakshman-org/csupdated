@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import { services } from "@/lib/data";
 import Footer from "@/components/Footer";
 import { getBlogBySlug, getPublishedBlogs } from "@/lib/blogs";
 import type { Metadata } from "next";
@@ -79,7 +80,7 @@ export default async function BlogDetailPage({
           <div className={blogStyles.cover}>
             <Image
               src={post.coverImage}
-              alt=""
+              alt={post.title}
               fill
               style={{ objectFit: "cover" }}
               sizes="760px"
@@ -107,6 +108,17 @@ export default async function BlogDetailPage({
               </div>
             </div>
           )}
+
+          <div className={blogStyles.related}>
+            <h2 className={blogStyles.relatedTitle}>Explore CloudSwift Services</h2>
+            <div className={blogStyles.relatedList}>
+              {services.map((s) => (
+                <Link key={s.id} href={s.href} className={blogStyles.relatedLink}>
+                  {s.title}
+                </Link>
+              ))}
+            </div>
+          </div>
         </article>
       </section>
       <Footer />
@@ -119,6 +131,7 @@ export default async function BlogDetailPage({
             "headline": post.title,
             "description": post.excerpt,
             "datePublished": post.publishedAt,
+            "dateModified": post.updatedAt || post.publishedAt,
             "author": {
               "@type": "Person",
               "name": post.author
