@@ -30,7 +30,7 @@ export default function BlogListing({ posts }: { posts: BlogPost[] }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             >
-              Blog
+              Azure & Cloud Engineering Blog
             </motion.h1>
           </div>
           <motion.p

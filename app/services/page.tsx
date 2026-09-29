@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import OfferingCatalog from "@/components/OfferingCatalog";
-import { catalogServices } from "@/lib/catalog";
+import { catalogServices, allServiceItems } from "@/lib/catalog";
+
+const ORIGIN = "https://oncloudswift.com";
 
 export const metadata: Metadata = {
   title: "Managed IT Services for Indian Enterprises",
@@ -15,15 +17,35 @@ export const metadata: Metadata = {
   },
 };
 
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Managed IT Services for Indian Enterprises",
+  "url": `${ORIGIN}/services`,
+  "numberOfItems": allServiceItems.length,
+  "itemListElement": allServiceItems.slice(0, 12).map((item, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": item.title,
+    "url": `${ORIGIN}/services/${item.id}`,
+  })),
+};
+
 export default function ServicesPage() {
   return (
-    <OfferingCatalog
-      title="Complete IT Services for Enterprises"
-      yearLabel="6 practice areas"
-      description="Applications, infrastructure, cybersecurity, digital workplace, consulting and technology transformation."
-      basePath="/services"
-      categories={catalogServices}
-      ctaLabel="View service"
-    />
+    <>
+      <OfferingCatalog
+        title="Complete IT Services for Enterprises"
+        yearLabel="6 practice areas"
+        description="Applications, infrastructure, cybersecurity, digital workplace, consulting and technology transformation."
+        basePath="/services"
+        categories={catalogServices}
+        ctaLabel="View service"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+    </>
   );
 }

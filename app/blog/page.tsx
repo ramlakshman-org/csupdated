@@ -3,7 +3,7 @@ import BlogListing from "./BlogListing";
 import { getPublishedBlogs } from "@/lib/blogs";
 
 export const metadata: Metadata = {
-  title: "Azure & Cloud Blog | CloudSwift Technologies",
+  title: { absolute: "Azure & Cloud Blog | CloudSwift Technologies" },
   description:
     "Field notes from CloudSwift — Azure migration playbooks, FinOps quick wins, managed security, and AI rollout guides for Indian enterprises.",
   alternates: { canonical: "https://oncloudswift.com/blog" },

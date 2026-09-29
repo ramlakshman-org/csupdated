@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import OfferingCatalog from "@/components/OfferingCatalog";
 import { catalogAiServices } from "@/lib/catalog";
+import { AGENT_PAGES } from "@/lib/agentPages";
+
+const ORIGIN = "https://oncloudswift.com";
 
 export const metadata: Metadata = {
   title: { absolute: "Enterprise AI Services — Agents, GenAI & MLOps | CloudSwift" },
@@ -15,15 +18,35 @@ export const metadata: Metadata = {
   },
 };
 
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Enterprise AI Services",
+  "url": `${ORIGIN}/ai-services`,
+  "numberOfItems": AGENT_PAGES.length,
+  "itemListElement": AGENT_PAGES.slice(0, 12).map((page, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": page.title,
+    "url": `${ORIGIN}${page.path}`,
+  })),
+};
+
 export default function AiServicesPage() {
   return (
-    <OfferingCatalog
-      title="AI Solutions for Business"
-      yearLabel="5 AI practices"
-      description="From an AI readiness assessment and sequenced roadmap to ChatGPT Enterprise, document intelligence, AI SaaS products, multi-agent systems, and MLOps infrastructure."
-      basePath="/ai-services"
-      categories={catalogAiServices}
-      ctaLabel="View service"
-    />
+    <>
+      <OfferingCatalog
+        title="AI Solutions for Business"
+        yearLabel="5 AI practices"
+        description="From an AI readiness assessment and sequenced roadmap to ChatGPT Enterprise, document intelligence, AI SaaS products, multi-agent systems, and MLOps infrastructure."
+        basePath="/ai-services"
+        categories={catalogAiServices}
+        ctaLabel="View service"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+    </>
   );
 }

@@ -333,6 +333,17 @@ const nextConfig: NextConfig = {
         destination: "/contact",
         permanent: false,
       },
+      // Dead slugs — 301 to closest live page
+      {
+        source: "/managed-cloud/azure-monitoring",
+        destination: "/managed-cloud/azure-cloud",
+        permanent: true,
+      },
+      {
+        source: "/services/cloud-security",
+        destination: "/managed-cloud",
+        permanent: true,
+      },
       // Dead URLs from old site — 301 to closest matching page
       {
         source: "/cloud-migrations/:path*",

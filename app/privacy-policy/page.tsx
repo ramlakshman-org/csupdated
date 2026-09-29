@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import styles from "../legal.module.css";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CloudSwift Technologies",
+  title: { absolute: "Privacy Policy | CloudSwift Technologies" },
   description:
     "How CloudSwift Technologies Pvt. Ltd. collects, uses, and protects your personal data under the Digital Personal Data Protection Act, 2023.",
 };

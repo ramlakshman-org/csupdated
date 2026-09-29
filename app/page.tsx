@@ -4,14 +4,14 @@ import HeroSection from "@/components/HeroSection";
 import TrustBar from "@/components/TrustBar";
 
 export const metadata: Metadata = {
-  title: "CloudSwift — Azure Expert MSP for Indian Startups",
+  title: "CloudSwift — Azure Expert MSP for Indian Enterprises",
   description:
-    "Managed Azure services for Indian startups and growing companies. 15-min response, 99.97% uptime SLA. Azure Expert MSP — Bengaluru.",
+    "Managed Azure services for Indian enterprises. 15-min response, 99.97% uptime SLA. Azure Expert MSP — Bengaluru.",
   alternates: { canonical: "https://oncloudswift.com" },
   openGraph: {
-    title: "CloudSwift — Azure Expert MSP for Indian Startups",
+    title: "CloudSwift — Azure Expert MSP for Indian Enterprises",
     description:
-      "Managed Azure services for Indian startups and growing companies.",
+      "Managed Azure services for Indian enterprises. 15-min response, 99.97% uptime SLA.",
     url: "https://oncloudswift.com",
   },
 };
@@ -36,13 +36,39 @@ import Footer from "@/components/Footer";
  * 6. Featured solutions
  * 7. Social proof + FAQ + footer
  */
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "ProfessionalService"],
+  "name": "CloudSwift Technologies Pvt. Ltd.",
+  "url": "https://oncloudswift.com",
+  "telephone": "+91 98455 70066",
+  "email": "hello.in@oncloudswift.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "addressCountry": "IN",
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/cloudswift-technologies-pvt-ltd",
+    "https://x.com/CloudSwiftTech",
+    "https://www.instagram.com/cloudswift_technologies/",
+    "https://www.youtube.com/@CloudSwiftTechnologies",
+  ],
+};
+
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "CloudSwift Technologies Pvt. Ltd.",
   "url": "https://oncloudswift.com",
   "logo": "https://oncloudswift.com/images/cs/logo.png",
-  "description": "Azure Expert MSP providing managed cloud, AI, and IT services for Indian startups and enterprises.",
+  "description": "Azure Expert MSP providing managed cloud, AI, and IT services for Indian enterprises.",
   "foundingDate": "2023",
   "address": {
     "@type": "PostalAddress",
@@ -82,6 +108,10 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <script
         type="application/ld+json"
