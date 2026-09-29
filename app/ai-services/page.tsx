@@ -3,7 +3,7 @@ import OfferingCatalog from "@/components/OfferingCatalog";
 import { catalogAiServices } from "@/lib/catalog";
 
 export const metadata: Metadata = {
-  title: "Enterprise AI Services — Agents, GenAI & MLOps | CloudSwift",
+  title: { absolute: "Enterprise AI Services — Agents, GenAI & MLOps | CloudSwift" },
   description:
     "18 enterprise AI services from strategy to production — AI agents, generative AI, ChatGPT integrations, SaaS products, and MLOps. CloudSwift, Bengaluru.",
   alternates: { canonical: "https://oncloudswift.com/ai-services" },

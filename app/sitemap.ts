@@ -83,13 +83,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: D.aiAgents,
       changeFrequency: "monthly" as const,
       priority: 0.85,
-      images: [
-        {
-          url: `${ORIGIN}${page.image}`,
-          title: page.imageAlt,
-          caption: page.imageCaption ?? page.imageAlt,
-        },
-      ],
+      images: [`${ORIGIN}${page.image}`],
     })),
     ...offeringPaths.map((path) => ({
       url: `${ORIGIN}${path}`,

@@ -3,7 +3,7 @@ import { faqs } from "@/lib/data";
 import ContactPage from "./ContactPage";
 
 export const metadata: Metadata = {
-  title: "Contact CloudSwift — Book a Free Azure Consultation",
+  title: { absolute: "Contact CloudSwift — Book a Free Azure Consultation" },
   description:
     "Talk to CloudSwift's Azure Expert MSP team in Bengaluru. Book a free 30-minute cloud consultation for Azure migration, managed cloud, or AI services. India-wide coverage.",
   alternates: {
