@@ -70,7 +70,7 @@ export default function HeroSection() {
 
   return (
     <section className={styles.hero} id="hero" ref={ref}>
-      <GridBackground hero preload priority />
+      <GridBackground hero preload />
       <div className={styles.rightGlow} aria-hidden>
         <Image
           src="/images/hero-gradient.webp"

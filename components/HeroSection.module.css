@@ -225,13 +225,14 @@
     padding: 0 16px 40px;
   }
   .socialStack {
-    left: 16px;
-    bottom: 48px;
-    flex-direction: column;
-    gap: 14px;
+    display: none;
+  }
+  .stage {
+    justify-content: center;
+    padding-top: 72px;
   }
   .inner {
-    padding-left: 56px;
+    padding-left: 0;
   }
   .designing,
   .forText,
