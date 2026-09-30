@@ -1,5 +1,5 @@
 # CloudSwift Website — Technical Project Brief
-**Last updated:** 30 September 2026 · Audit Rev 2 applied · Go-live pending P1 clearance
+**Last updated:** 30 September 2026 · Audit Rev 3 applied · Go-live pending P1 clearance
 
 ---
 
@@ -42,6 +42,11 @@
 - [x] **CookieConsent component** — `app/layout.tsx` — absent from old production build.
 - [x] **JSON-LD schemas on homepage** — `app/page.tsx` — Organization, LocalBusiness, FAQPage schemas. All absent from old production build.
 - [x] **robots.txt with AI crawlers + llms.txt** — `public/robots.txt` — GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot explicitly allowed. Absent from old build.
+- [x] **BadgeStrip.tsx alt text** — `components/BadgeStrip.tsx` — confirmed clean, text-only badges with no `<Image>` tags. No action needed.
+- [x] **BreadcrumbList on service section layouts** — `app/services/layout.tsx`, `app/managed-cloud/layout.tsx`, `app/ai-services/layout.tsx`, `app/solutions/layout.tsx` — created all four. Home → Section pattern matches `app/about/layout.tsx`. Commit 3dacfa7.
+- [x] **/solutions meta description** — `app/solutions/page.tsx` — "Indian startups and enterprises" → "Indian enterprises". Aligns with llms.txt. Commit 738b9c3.
+- [x] **/ai-services/ai-content thin content** — `lib/catalog.json` — `detailedContent` expanded from 61 → ~280 words. Covers content audit process, prompt-chain architecture, approval workflows, enterprise use cases. Commit 738b9c3.
+- [x] **/projects in sitemap** — confirmed absent from new build. Sitemap generates from catalog only; no `/projects` entry exists. No action needed.
 
 ---
 
@@ -54,8 +59,8 @@
 ## What Is Pending (not started)
 
 - [ ] Grievance Officer name in Privacy Policy — **P1 legal blocker** — awaiting Ram / Havil
-- [ ] BadgeStrip.tsx alt text audit — P2
-- [ ] BreadcrumbList on service sub-pages (`/services`, `/managed-cloud`, `/ai-services`, `/solutions`) — P2
+- [x] ~~BadgeStrip.tsx alt text audit~~ — confirmed clean, no images
+- [x] ~~BreadcrumbList on service sub-pages~~ — done, commit 3dacfa7
 - [ ] Full address + pincode in LocalBusiness schema — P2 — awaiting Ram
 - [ ] Lead flow end-to-end test (Form → WhatsApp → SimpleCRM) — **P1 go-live gate**
 - [ ] Credential claims sign-off (Havil) — **P1 go-live gate**
@@ -115,21 +120,14 @@
 
 ---
 
-### Task 4 — Audit BadgeStrip.tsx for missing image alt text
-- **File / Location:** `components/BadgeStrip.tsx` (or equivalent ticker/marquee component)
-- **What to do:** Check every `<Image>` tag in the component. For brand logos (Azure, Microsoft, AWS, etc.), add `alt="[Brand] logo"`. If the image is purely decorative inside a labelled link, `alt=""` is acceptable only if the parent has `aria-label`.
-- **Expected output:** Zero `<Image>` tags with empty alt that lack a parent `aria-label`. Run Axe DevTools in browser to verify.
-- **Priority:** P2
-- **Estimated time:** 15 minutes
+### ~~Task 4 — Audit BadgeStrip.tsx for missing image alt text~~ ✅ DONE
+- **Result:** Component uses text `<span>` badges only — no `<Image>` tags. Nothing to fix. Verified 30 Sep 2026.
 
 ---
 
-### Task 5 — Add BreadcrumbList schema to service / solution section layouts
-- **File / Location:** `app/services/layout.tsx`, `app/managed-cloud/layout.tsx`, `app/ai-services/layout.tsx`, `app/solutions/layout.tsx` — create layout files if they don't already exist
-- **What to do:** Follow the exact pattern in `app/about/layout.tsx`. For each section add a BreadcrumbList with two items: Home (`https://oncloudswift.com`) and the section (e.g. `https://oncloudswift.com/services`).
-- **Expected output:** Rich Results Test on each section page shows BreadcrumbList detected. Page source contains valid JSON-LD with `@type: BreadcrumbList`.
-- **Priority:** P2
-- **Estimated time:** 30 minutes for all 4 sections
+### ~~Task 5 — Add BreadcrumbList schema to service / solution section layouts~~ ✅ DONE
+- **Result:** All 4 layout files created — `app/services/layout.tsx`, `app/managed-cloud/layout.tsx`, `app/ai-services/layout.tsx`, `app/solutions/layout.tsx`. Each injects BreadcrumbList JSON-LD (Home → Section). Commit 3dacfa7 · 30 Sep 2026.
+- **Verify:** Rich Results Test on each section page should show BreadcrumbList detected.
 
 ---
 
