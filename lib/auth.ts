@@ -1,7 +1,6 @@
 import { createHmac } from "crypto";
 import { cookies } from "next/headers";
-
-const COOKIE = "cs_admin_session";
+import { ADMIN_COOKIE as COOKIE } from "./admin-cookie";
 
 function getSecret(): string {
   const secret = process.env.ADMIN_COOKIE_SECRET;
