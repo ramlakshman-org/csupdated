@@ -70,3 +70,4 @@ _tmp_home.html
 # Claude Code internal
 .claude/
 .gstack/
+CLAUDE.md
