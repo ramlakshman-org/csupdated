@@ -44,3 +44,29 @@ next-env.d.ts
 /docs
 /images
 /optimized
+.gstack/
+
+# SIGNAL internal working documents — do not commit
+CONTENT_AUDIT.md
+CTA_AUDIT.md
+METADATA_AUDIT.md
+MOBILE_AUDIT.md
+PENDING.md
+PERFORMANCE_AUDIT.md
+PSEO_AUDIT.md
+SECURITY_AUDIT.md
+TRUST_AUDIT.md
+UI_AUDIT.md
+W2_READY_TASKS.md
+W2_SEQUENCE.md
+SPRINT_CHANGELOG.md
+SPRINT_FULL_REPORT.md
+HAVIL_DEPLOYMENT_BRIEF.md
+CloudSwift_Website_Sprint_Brief.pdf
+CLOUDSWIFT-PROJECT-BRIEF.md
+_framer_extract.txt
+_tmp_home.html
+
+# Claude Code internal
+.claude/
+.gstack/
