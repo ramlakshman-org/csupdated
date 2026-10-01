@@ -24,33 +24,39 @@ export async function generateMetadata({
   };
 }
 
+function inline(text: string): string {
+  return text
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+}
+
 function renderContent(md: string) {
-  // Minimal markdown: ## headings + paragraphs + lists
   return md
     .split(/\n\n+/)
     .map((block) => {
       const t = block.trim();
-      if (t.startsWith("## ")) return `<h2>${t.slice(3)}</h2>`;
+      if (!t || t === "---") return "";
+      if (t.startsWith("### ")) return `<h3>${inline(t.slice(4))}</h3>`;
+      if (t.startsWith("## ")) return `<h2>${inline(t.slice(3))}</h2>`;
       if (/^\d+\.\s/m.test(t)) {
         const items = t
           .split(/\n/)
-          .map((l) => l.replace(/^\d+\.\s*/, "").trim())
           .filter(Boolean)
-          .map((l) => `<li>${l}</li>`)
+          .map((l) => `<li>${inline(l.replace(/^\d+\.\s*/, "").trim())}</li>`)
           .join("");
         return `<ol>${items}</ol>`;
       }
       if (t.startsWith("- ")) {
         const items = t
           .split(/\n/)
-          .map((l) => l.replace(/^-+\s*/, "").trim())
           .filter(Boolean)
-          .map((l) => `<li>${l}</li>`)
+          .map((l) => `<li>${inline(l.replace(/^-+\s*/, "").trim())}</li>`)
           .join("");
         return `<ul>${items}</ul>`;
       }
-      return `<p>${t}</p>`;
+      return `<p>${inline(t)}</p>`;
     })
+    .filter(Boolean)
     .join("");
 }
 
