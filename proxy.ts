@@ -1,6 +1,10 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { ADMIN_COOKIE } from '@/lib/admin-cookie';
 
+// Runs at the edge: validates the HMAC session token with Web Crypto
+// (crypto.subtle) so no Node.js-only imports are pulled in. Must stay in sync
+// with sign() in lib/auth.ts.
 async function verifySession(cookieValue: string): Promise<boolean> {
   const secret = process.env.ADMIN_COOKIE_SECRET;
   const password = process.env.ADMIN_PASSWORD;
@@ -24,15 +28,17 @@ async function verifySession(cookieValue: string): Promise<boolean> {
 }
 
 export async function proxy(req: NextRequest) {
-  if (
-    req.nextUrl.pathname.startsWith('/admin') &&
-    !req.nextUrl.pathname.startsWith('/admin/login')
-  ) {
-    const cookie = req.cookies.get('cs_admin_session');
-    if (!cookie || !(await verifySession(cookie.value))) {
+  const { pathname } = req.nextUrl;
+
+  // Let the login page through so we don't loop
+  if (pathname.startsWith('/admin') && pathname !== '/admin/login') {
+    const token = req.cookies.get(ADMIN_COOKIE)?.value;
+    if (!token || !(await verifySession(token))) {
       return NextResponse.redirect(new URL('/admin/login', req.url));
     }
   }
+
+  return NextResponse.next();
 }
 
 export const config = { matcher: ['/admin/:path*'] };
