@@ -44,6 +44,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/projects",
+        destination: "/solutions",
+        statusCode: 301,
+      },
+      {
         source: "/ai-services/ai-customer-agent",
         destination: "/ai-services/customer-support-agents",
         permanent: true,
@@ -325,7 +330,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/case-studies",
-        destination: "/projects",
+        destination: "/solutions",
         permanent: false,
       },
       {
@@ -334,6 +339,11 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       // Dead slugs — 301 to closest live page
+      {
+        source: "/services/cloud-migration",
+        destination: "/services/migrations",
+        statusCode: 301,
+      },
       {
         source: "/managed-cloud/azure-monitoring",
         destination: "/managed-cloud/azure-cloud",

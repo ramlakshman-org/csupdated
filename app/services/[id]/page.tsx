@@ -23,12 +23,12 @@ export async function generateMetadata({
   const item = findOffering(catalogServices, id);
   if (!item) return {};
   return {
-    title: item.title,
-    description: item.desc,
+    title: item.metaTitle ?? item.title,
+    description: item.metaDescription ?? item.desc,
     alternates: { canonical: `${ORIGIN}/services/${id}` },
     openGraph: {
-      title: item.title,
-      description: item.desc,
+      title: item.metaTitle ?? item.title,
+      description: item.metaDescription ?? item.desc,
       url: `${ORIGIN}/services/${id}`,
       ...(item.image ? { images: [{ url: item.image, width: 1200, height: 630 }] } : {}),
     },

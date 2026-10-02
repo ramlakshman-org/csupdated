@@ -141,7 +141,7 @@ export const customerSupportPage: AgentPage = {
   catalogId: "ai-customer-agent",
   path: PATH.support,
   metaTitle:
-    "Customer Support Agents | RAG-Grounded AI Support | CloudSwift",
+    "Customer Support Agents | AI Support | CloudSwift",
   metaDescription:
     "Customer support agents from CloudSwift resolve support queries instantly, stay on-brand, and escalate what they can't grounded in your real content.",
   category: "AI Agent Development",
@@ -474,9 +474,9 @@ export const enterpriseKnowledgePage: AgentPage = {
   catalogId: "ai-knowledge-agent",
   path: PATH.knowledge,
   metaTitle:
-    "Enterprise Knowledge Base Agents | Agentic RAG for Internal Knowledge | CloudSwift",
+    "Enterprise Knowledge Base Agents | RAG | CloudSwift",
   metaDescription:
-    "CloudSwift's enterprise knowledge base agents use agentic RAG to answer employee questions from your internal documentation — accurately, and with governed access control.",
+    "CloudSwift's knowledge base agents use agentic RAG to answer employee questions from internal documentation — accurately, with governed access control.",
   category: "AI Agent Development",
   title: "Enterprise Knowledge Base Agents",
   heroLede:
@@ -799,9 +799,9 @@ export const enterpriseKnowledgePage: AgentPage = {
 export const modelDeploymentPage: AgentPage = {
   catalogId: "ai-deploy",
   path: PATH.deploy,
-  metaTitle: "AI Model Deployment | Production MLOps for AI & ML Models | CloudSwift",
+  metaTitle: "AI Model Deployment | MLOps for Production | CloudSwift",
   metaDescription:
-    "CloudSwift builds AI model deployment pipelines — production-ready MLOps grounded in your model registry, with the governance of canary rollouts and audit trails and the reliability of standardized serving infrastructure.",
+    "CloudSwift builds production-ready AI model deployment pipelines — MLOps with canary rollouts, model registry, governance, and standardized serving infrastructure.",
   category: "AI Operations (MLOps)",
   title: "AI Model Deployment",
   h1: "AI Model Deployment That Turns Trained Models Into Production Systems",

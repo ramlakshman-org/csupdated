@@ -4,6 +4,9 @@ export type OfferingItem = {
   id: string;
   title: string;
   desc: string;
+  /** SEO-only overrides; fall back to title/desc when absent. */
+  metaTitle?: string;
+  metaDescription?: string;
   detailedContent: string;
   image: string;
   imageFit?: "cover" | "contain";
@@ -27,6 +30,8 @@ export type SolutionItem = {
   id: string;
   title: string;
   desc: string;
+  /** SEO-only override; falls back to desc when absent. */
+  metaDescription?: string;
   tags: string[];
   capabilities: string[];
   capabilityDescs?: Record<string, string>;

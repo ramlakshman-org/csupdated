@@ -114,6 +114,7 @@
       "id": "dynamics-365",
       "title": "Dynamics 365",
       "desc": "Transform sales, service, finance, and operations using Microsoft Dynamics 365—business applications connected together to help you be more productive and process automation with AI insights.",
+      "metaDescription": "Microsoft Dynamics 365 services for Indian enterprises — sales, service, finance, and operations connected in one platform with AI-driven process automation.",
       "tags": [
         "CRM",
         "ERP",
@@ -233,6 +234,7 @@
           "id": "custom-app-dev",
           "title": "Custom Application Development",
           "desc": "Enterprise applications that are scalable and secure, tailored to your specific business needs  from intricate web portals to critical backend systems, not possible with off-the-shelf software.",
+          "metaDescription": "Scalable, secure enterprise applications built to your exact requirements — from complex web portals to mission-critical backend systems. CloudSwift, Bengaluru.",
           "detailedContent": "Our approach to development includes agile delivery, microservices architecture, API-first development, and cloud native architecture. The scalability of your application is guaranteed from day one and sustainability for many years ahead, not till the next audit.",
           "image": "/images/cs/services/Custom.webp",
           "tags": [
@@ -272,6 +274,7 @@
           "id": "power-platform",
           "title": "Microsoft Power Platform Services",
           "desc": "Efficient low-code solutions for enterprise problems. Power Apps, Power Automate, and Power Virtual Agents designed from day one with governance in mind, not bolted on later.",
+          "metaDescription": "Power Apps, Power Automate, and Power Virtual Agents built for Indian enterprises — governance-first, low-code solutions for real business problems.",
           "detailedContent": "Citizen developers operate fast without shadow IT risks. Governance, environmental controls, and security are inherently embedded within the platform architecture.",
           "image": "/images/cs/services/Microsoft.webp",
           "tags": [
@@ -311,6 +314,7 @@
           "id": "sharepoint-dev",
           "title": "SharePoint & Collaboration Development",
           "desc": "Intranet systems for modern SharePoint that are meant to facilitate communication for your hybrid workforce. Something more than a document library no one ever visits.",
+          "metaDescription": "Modern SharePoint intranet systems built for hybrid workforces — designed for real adoption, not just a document library. CloudSwift, Bengaluru.",
           "detailedContent": "We create information architecture based on the actual process in which your team searches and shares. The outcome is a site that gets used regularly, not a site that sits neglected post-launch.",
           "image": "/images/cs/services/develpmentshare.webp",
           "tags": [
@@ -355,6 +359,7 @@
           "id": "virtualization",
           "title": "Virtualization Services",
           "desc": "Experience in management of VMware vSphere, Hyper-V, and cloud VM environments. Hypervisor layer management from provision till performance optimization including migration from VMware to cloud.",
+          "metaDescription": "VMware vSphere, Hyper-V, and cloud VM management — from provisioning to performance optimization, including VMware to Azure migration. Bengaluru-based.",
           "detailedContent": "Virtualization layer remains hidden when managed properly. Proactive patch management, capacity management, and VM sprawl management ensures that applications run uninterrupted.",
           "image": "/images/cs/services/Virtualizationserviceresize12.webp",
           "tags": [
@@ -394,6 +399,7 @@
           "id": "servers",
           "title": "Server Management",
           "desc": "Server Management (Physical / Virtual), which includes patches, firmware, capacity, and performance optimization. This service is complemented by 24/7 proactive monitoring.",
+          "metaDescription": "Physical and virtual server management — patching, firmware, capacity, and performance optimization with 24/7 proactive monitoring. CloudSwift, Bengaluru.",
           "detailedContent": "There are hardly any server crashes that occur without any prior indication. We continuously monitor the capacity and performance trends, ensuring that any gradual decline is caught early on.",
           "image": "/images/cs/services/Server.webp",
           "tags": [
@@ -1083,6 +1089,7 @@
         {
           "id": "amazon-web-services",
           "title": "Amazon Web Services",
+          "metaTitle": "Managed AWS Services",
           "desc": "AWS managed services for Indian businesses – EC2, S3, Lambda and RDS migrations with 24×7 NOC assistance and FinOps.",
           "detailedContent": "We offer AWS migration, AWS EKS, and Well-Architected assessments for businesses throughout India and the Middle East. The majority of our customers see an estimated 25-40% reduction in AWS costs in just three months.",
           "image": "/images/cs/services/amazon-web-services.webp",
@@ -2381,7 +2388,7 @@
           "title": "Document Intelligence",
           "desc": "Extracts, classifies, and summarizes documents at scale.",
           "detailedContent": "Turn unstructured documents into structured, actionable data instantly. Our Document Intelligence solutions utilize multimodal LLMs and advanced OCR to process complex PDFs, handwritten notes, invoices, and legal contracts. We automate data extraction, classify document types, and generate concise summaries, feeding accurate data directly into your ERP or database with near-perfect accuracy.",
-          "image": "/images/cs/ai-services/document-inteligence.webp",
+          "image": "/images/cs/ai-services/document-intelligence.webp",
           "tags": [
             "OCR",
             "NLP",

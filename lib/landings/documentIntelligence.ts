@@ -20,7 +20,7 @@ export const documentIntelligencePage: AgentPage = {
   heroLede:
     "Invoices, contracts, and forms become structured data automatically — platform-agnostic, not locked to one cloud vendor.",
   heroCta: { label: "Talk to us about document intelligence", href: "/contact" },
-  image: "/images/cs/ai-services/document-inteligence.webp",
+  image: "/images/cs/ai-services/document-intelligence.webp",
   imageAlt:
     "Document intelligence illustration: invoices, contracts, and forms being classified and extracted into structured data",
   overview: [

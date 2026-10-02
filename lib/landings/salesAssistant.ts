@@ -5,9 +5,9 @@ export const salesAssistantPage: AgentPage = {
   catalogId: "ai-sales-agent",
   path: PATH.sales,
   metaTitle:
-    "AI Sales Assistant | Agentic AI Sales Agent for Revenue Teams | CloudSwift",
+    "AI Sales Assistant for Revenue Teams | CloudSwift",
   metaDescription:
-    "CloudSwift builds AI sales assistants — agentic AI sales agents that handle CRM updates, follow-ups, and lead prioritization, with the accuracy of deal-grounded automation and the control your reps actually want.",
+    "CloudSwift builds AI sales assistants — agentic AI that handles CRM updates, follow-ups, and lead prioritization with deal-grounded accuracy your reps will trust.",
   category: "AI Agent Development",
   title: "AI Sales Assistant",
   h1: "AI Sales Assistant That Gives Reps Their Selling Time Back",

@@ -19,11 +19,11 @@ export async function generateMetadata({
   if (!project) return {};
   return {
     title: project.title,
-    description: project.description,
+    description: project.metaDescription ?? project.description,
     alternates: { canonical: `${ORIGIN}/solutions/${slug}` },
     openGraph: {
       title: project.title,
-      description: project.description,
+      description: project.metaDescription ?? project.description,
       url: `${ORIGIN}/solutions/${slug}`,
     },
   };

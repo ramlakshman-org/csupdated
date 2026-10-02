@@ -5,9 +5,9 @@ export const hrAssistantPage: AgentPage = {
   catalogId: "ai-hr-agent",
   path: PATH.hr,
   metaTitle:
-    "AI HR Assistant | AI-Powered HR Chatbot for Employee Support | CloudSwift",
+    "AI HR Assistant | HR Chatbot for Employees | CloudSwift",
   metaDescription:
-    "CloudSwift builds AI HR assistants — AI HR chatbots that answer PTO, benefits, and policy questions instantly, grounded in your HRIS, with the governance of enterprise access controls and the reliability of human-reviewed escalation.",
+    "CloudSwift builds AI HR assistants — chatbots that answer PTO, benefits, and policy questions instantly, grounded in your HRIS with enterprise access controls.",
   category: "AI Agent Development",
   title: "AI HR Assistant",
   h1: "AI HR Assistant for Employee Support That HR Teams Keep",

@@ -141,6 +141,7 @@ export const projects = [...catalogSolutions, aiServicesSolution].map((s) => ({
   scopeOfWork: s.capabilities.slice(0, 3).join(", "),
   duration: "Ongoing",
   description: s.desc,
+  metaDescription: "metaDescription" in s ? s.metaDescription : undefined,
   challenge: s.desc,
   goal: `Deliver ${s.title} with clear governance, security, and measurable outcomes.`,
   solution: `${s.steps.join(" → ")}. Capabilities include ${s.capabilities.join(", ")}.`,

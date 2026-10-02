@@ -23,12 +23,12 @@ export async function generateMetadata({
   const item = findOffering(catalogManagedCloud, id);
   if (!item) return {};
   return {
-    title: item.title,
-    description: item.desc,
+    title: item.metaTitle ?? item.title,
+    description: item.metaDescription ?? item.desc,
     alternates: { canonical: `${ORIGIN}/managed-cloud/${id}` },
     openGraph: {
-      title: item.title,
-      description: item.desc,
+      title: item.metaTitle ?? item.title,
+      description: item.metaDescription ?? item.desc,
       url: `${ORIGIN}/managed-cloud/${id}`,
       ...(item.image ? { images: [{ url: item.image, width: 1200, height: 630 }] } : {}),
     },

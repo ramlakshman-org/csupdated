@@ -5,9 +5,9 @@ export const workflowAutomationPage: AgentPage = {
   catalogId: "ai-workflow-agent",
   path: PATH.workflow,
   metaTitle:
-    "AI Workflow Automation | Agentic Workflows for Enterprise Operations | CloudSwift",
+    "AI Workflow Automation for Enterprise | CloudSwift",
   metaDescription:
-    "CloudSwift builds AI workflow automation — agentic workflows that connect your tools and handle multi-step decisions, with the governance of enterprise process controls and the reliability of tested, exception-aware automation.",
+    "CloudSwift builds AI workflow automation — agentic workflows that connect your tools and handle multi-step decisions with enterprise governance and tested exception handling.",
   category: "AI Agent Development",
   title: "AI Workflow Automation",
   h1: "AI Workflow Automation That Thinks Past a Brittle Script",

@@ -5,9 +5,9 @@ export const modelMonitoringPage: AgentPage = {
   catalogId: "ai-monitoring",
   path: PATH.monitor,
   metaTitle:
-    "AI Model Monitoring | Model Drift Detection for Production ML | CloudSwift",
+    "AI Model Monitoring | Drift Detection | CloudSwift",
   metaDescription:
-    "CloudSwift builds AI model monitoring pipelines — drift detection and performance tracking grounded in your production data, with the governance of continuous MLOps and the accuracy of statistically-driven alerting.",
+    "CloudSwift builds AI model monitoring pipelines — drift detection and performance tracking grounded in production data, with statistically-driven alerting.",
   category: "AI Operations (MLOps)",
   title: "AI Model Monitoring",
   h1: "AI Model Monitoring That Catches Model Drift Before It Costs You",

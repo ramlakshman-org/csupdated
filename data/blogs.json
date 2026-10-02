@@ -13,7 +13,7 @@
     "createdAt": "2026-10-04T00:00:00.000Z",
     "updatedAt": "2026-10-04T00:00:00.000Z",
     "seoTitle": "Cloud Migration vs Modernisation — Which First? | CloudSwift",
-    "seoDescription": "Cloud migration moves your workloads to Azure. Modernisation rebuilds them. Here is the framework for sequencing it correctly. CloudSwift, Bengaluru."
+    "seoDescription": "Lift and shift or rearchitect for cloud-native? A practical guide for Indian enterprises on choosing the right path — or combining both in a staged programme."
   },
   {
     "id": "d9fd87f7-b0f8-4c89-86ce-c06c83ef4540",
@@ -43,7 +43,8 @@
     "published": true,
     "publishedAt": "2025-09-03",
     "createdAt": "2026-08-15T08:24:31.609Z",
-    "updatedAt": "2026-08-15T08:24:31.609Z"
+    "updatedAt": "2026-08-15T08:24:31.609Z",
+    "seoTitle": "Multi-Region Active Directory Migration"
   },
   {
     "id": "10c45a75-2a27-4574-bd35-5db0b8029254",
